@@ -52,7 +52,7 @@
 		4D6E530F1B795CCA006999B9 /* 2策略模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2策略模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6E53141B795CCA006999B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6E53151B795CCA006999B9 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
-		4D6E53201B7969CD006999B9 /* HCDCashBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCashBase.h; sourceTree = "<group>"; };
+		CCC8429E20C122CD00080F72 /* HCDCashProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDCashProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,15 +136,15 @@
 		4D6E531F1B79698A006999B9 /* stratagy */ = {
 			isa = PBXGroup;
 			children = (
-				4D6E53201B7969CD006999B9 /* HCDCashBase.h */,
-				4D66892F1B7A170F00DCC34D /* HCDCashNormal.h */,
-				4D6689301B7A170F00DCC34D /* HCDCashNormal.m */,
-				4D6689321B7A181C00DCC34D /* HCDCashRobate.h */,
-				4D6689331B7A181C00DCC34D /* HCDCashRobate.m */,
 				4D6689351B7A219700DCC34D /* HCDCaseReturn.h */,
 				4D6689361B7A219700DCC34D /* HCDCaseReturn.m */,
 				4D6689381B7A227300DCC34D /* HCDCashContext.h */,
 				4D6689391B7A227300DCC34D /* HCDCashContext.m */,
+				4D66892F1B7A170F00DCC34D /* HCDCashNormal.h */,
+				4D6689301B7A170F00DCC34D /* HCDCashNormal.m */,
+				CCC8429E20C122CD00080F72 /* HCDCashProtocol.h */,
+				4D6689321B7A181C00DCC34D /* HCDCashRobate.h */,
+				4D6689331B7A181C00DCC34D /* HCDCashRobate.m */,
 			);
 			name = stratagy;
 			sourceTree = "<group>";

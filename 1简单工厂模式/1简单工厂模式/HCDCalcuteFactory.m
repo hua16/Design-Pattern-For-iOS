@@ -14,7 +14,7 @@
 
 @implementation HCDCalcuteFactory
 
-+(id<HCDCalculateProtocol>)createCalcute:(NSString *)calculatetype {
++(HCDCalculate *)createCalcute:(NSString *)calculatetype {
     
     NSArray *calculateArray = @[@"+",@"-",@"*",@"/"];
     

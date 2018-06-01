@@ -11,6 +11,6 @@
 
 @interface HCDCalcuteFactory : NSObject
 
-+(id<HCDCalculateProtocol>)createCalcute:(NSString *)calculatetype;
++(HCDCalculate *)createCalcute:(NSString *)calculatetype;
 
 @end
