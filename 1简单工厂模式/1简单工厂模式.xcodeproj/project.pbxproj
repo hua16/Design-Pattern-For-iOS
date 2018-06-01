@@ -19,7 +19,7 @@
 		4D8948B21B78CC76008DDDD4 /* HCDCalcuteMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8948B11B78CC76008DDDD4 /* HCDCalcuteMultiply.m */; };
 		4D8948B51B78CCE4008DDDD4 /* HCDCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8948B41B78CCE4008DDDD4 /* HCDCalculateDivide.m */; };
 		4D8948B81B78CD66008DDDD4 /* HCDCalcuteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8948B71B78CD66008DDDD4 /* HCDCalcuteFactory.m */; };
-		4D8948BB1B78D0B9008DDDD4 /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8948BA1B78D0B9008DDDD4 /* CommonTool.m */; };
+		CCC8429920C0F82E00080F72 /* HCDCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC8429820C0F82E00080F72 /* HCDCalculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		4D8948B41B78CCE4008DDDD4 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
 		4D8948B61B78CD66008DDDD4 /* HCDCalcuteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteFactory.h; sourceTree = "<group>"; };
 		4D8948B71B78CD66008DDDD4 /* HCDCalcuteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteFactory.m; sourceTree = "<group>"; };
-		4D8948B91B78D0B9008DDDD4 /* CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
-		4D8948BA1B78D0B9008DDDD4 /* CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		CCC8429820C0F82E00080F72 /* HCDCalculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDCalculate.m; sourceTree = "<group>"; };
+		CCC8429D20C0F87500080F72 /* HCDCalculateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDCalculateProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,18 +143,18 @@
 			isa = PBXGroup;
 			children = (
 				4D8948A91B78C933008DDDD4 /* HCDCalculate.h */,
+				CCC8429820C0F82E00080F72 /* HCDCalculate.m */,
 				4D8948AA1B78CA65008DDDD4 /* HCDCalculateAdd.h */,
 				4D8948AB1B78CA65008DDDD4 /* HCDCalculateAdd.m */,
-				4D8948AD1B78CBF7008DDDD4 /* HCDCalculateMinus.h */,
-				4D8948AE1B78CBF7008DDDD4 /* HCDCalculateMinus.m */,
-				4D8948B01B78CC76008DDDD4 /* HCDCalcuteMultiply.h */,
-				4D8948B11B78CC76008DDDD4 /* HCDCalcuteMultiply.m */,
 				4D8948B31B78CCE4008DDDD4 /* HCDCalculateDivide.h */,
 				4D8948B41B78CCE4008DDDD4 /* HCDCalculateDivide.m */,
+				4D8948AD1B78CBF7008DDDD4 /* HCDCalculateMinus.h */,
+				4D8948AE1B78CBF7008DDDD4 /* HCDCalculateMinus.m */,
 				4D8948B61B78CD66008DDDD4 /* HCDCalcuteFactory.h */,
 				4D8948B71B78CD66008DDDD4 /* HCDCalcuteFactory.m */,
-				4D8948B91B78D0B9008DDDD4 /* CommonTool.h */,
-				4D8948BA1B78D0B9008DDDD4 /* CommonTool.m */,
+				4D8948B01B78CC76008DDDD4 /* HCDCalcuteMultiply.h */,
+				4D8948B11B78CC76008DDDD4 /* HCDCalcuteMultiply.m */,
+				CCC8429D20C0F87500080F72 /* HCDCalculateProtocol.h */,
 			);
 			name = factory;
 			sourceTree = "<group>";
@@ -260,13 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D89488B1B78C792008DDDD4 /* ViewController.m in Sources */,
-				4D8948BB1B78D0B9008DDDD4 /* CommonTool.m in Sources */,
 				4D8948881B78C792008DDDD4 /* AppDelegate.m in Sources */,
 				4D8948AC1B78CA65008DDDD4 /* HCDCalculateAdd.m in Sources */,
 				4D8948851B78C792008DDDD4 /* main.m in Sources */,
 				4D8948AF1B78CBF7008DDDD4 /* HCDCalculateMinus.m in Sources */,
 				4D8948B21B78CC76008DDDD4 /* HCDCalcuteMultiply.m in Sources */,
 				4D8948B81B78CD66008DDDD4 /* HCDCalcuteFactory.m in Sources */,
+				CCC8429920C0F82E00080F72 /* HCDCalculate.m in Sources */,
 				4D8948B51B78CCE4008DDDD4 /* HCDCalculateDivide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +462,7 @@
 				4D8948A41B78C792008DDDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8948A51B78C792008DDDD4 /* Build configuration list for PBXNativeTarget "1简单工厂模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				4D8948A71B78C792008DDDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

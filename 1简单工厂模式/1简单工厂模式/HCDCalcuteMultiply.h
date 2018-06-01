@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDCalculate.h"
-@interface HCDCalcuteMultiply : NSObject<HCDCalculate>
+
+@interface HCDCalcuteMultiply : HCDCalculate
 
 @end

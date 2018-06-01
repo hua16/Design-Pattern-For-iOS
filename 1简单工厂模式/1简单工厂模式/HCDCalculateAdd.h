@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "HCDCalculate.h"
 
-@interface HCDCalculateAdd : NSObject<HCDCalculate>
+@interface HCDCalculateAdd : HCDCalculate
 
 @end

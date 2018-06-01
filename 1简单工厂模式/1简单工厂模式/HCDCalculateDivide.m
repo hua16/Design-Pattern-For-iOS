@@ -9,12 +9,13 @@
 #import "HCDCalculateDivide.h"
 
 @implementation HCDCalculateDivide
-@synthesize numberA = _numberA;
-@synthesize numberB = _numberB;
--(CGFloat)calculate{
+
+- (CGFloat)calculate{
     if (self.numberB == 0) {
-        assert(self.numberB);
+        NSLog(@"dividend is can not be zero!");
+        return 0;
     }
     return self.numberA/self.numberB;
 }
+
 @end
