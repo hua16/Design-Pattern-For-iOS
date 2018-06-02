@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "HCDPresionBuilder.h"
 
-@interface HCDPersonFatBuilder : NSObject<HCDPresionBuilder>
+@interface HCDPersonFatBuilder : HCDPresionBuilder 
 
 @end

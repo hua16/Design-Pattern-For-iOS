@@ -9,10 +9,13 @@
 #import "HCDstock3.h"
 
 @implementation HCDstock3
+
 -(void)buy{
     NSLog(@"买入股票3");
 }
+
 -(void)sell{
     NSLog(@"卖出股票3");
 }
+
 @end

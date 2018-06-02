@@ -22,14 +22,10 @@
     
     HCDschoolGirl *girl = [[HCDschoolGirl alloc]init];
     girl.name = @"哈哈哈哈哈";
-    HCDproxy *proxy = [[HCDproxy alloc]initWithSchoolGirl:girl];
+    HCDproxy *proxy = [[HCDproxy alloc] initWithSchoolGirl:girl];
     [proxy giveFlowers];
     [proxy giveDolls];
-    [proxy giveChocolate];
-    
-    
-    
-    // Do any additional setup after loading the view, typically from a nib.
+    [proxy giveChocolate]; 
 }
 
 - (void)didReceiveMemoryWarning {

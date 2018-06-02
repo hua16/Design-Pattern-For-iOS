@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D1868DA1ED6E27400F8C3C0 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1868D91ED6E27400F8C3C0 /* Component.m */; };
-		4D1868DD1ED6E2B200F8C3C0 /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1868DC1ED6E2B200F8C3C0 /* ConcreteComponent.m */; };
-		4D1868E01ED6E2D500F8C3C0 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1868DF1ED6E2D500F8C3C0 /* Decorator.m */; };
-		4D1868E31ED6E30900F8C3C0 /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1868E21ED6E30900F8C3C0 /* ConcreteDecoratorA.m */; };
-		4D1868E61ED6E31400F8C3C0 /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1868E51ED6E31400F8C3C0 /* ConcreteDecoratorB.m */; };
+		CCC842A120C173A900080F72 /* LTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842A020C173A900080F72 /* LTPerson.m */; };
+		CCC842A420C1742100080F72 /* LTFinery.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842A320C1742100080F72 /* LTFinery.m */; };
 		DD17B1B01B7B058000943EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B1AF1B7B058000943EDE /* main.m */; };
 		DD17B1B31B7B058000943EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B1B21B7B058000943EDE /* AppDelegate.m */; };
 		DD17B1B61B7B058000943EDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B1B51B7B058000943EDE /* ViewController.m */; };
@@ -33,16 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D1868D81ED6E27400F8C3C0 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
-		4D1868D91ED6E27400F8C3C0 /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
-		4D1868DB1ED6E2B200F8C3C0 /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
-		4D1868DC1ED6E2B200F8C3C0 /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
-		4D1868DE1ED6E2D500F8C3C0 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
-		4D1868DF1ED6E2D500F8C3C0 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
-		4D1868E11ED6E30900F8C3C0 /* ConcreteDecoratorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorA.h; sourceTree = "<group>"; };
-		4D1868E21ED6E30900F8C3C0 /* ConcreteDecoratorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorA.m; sourceTree = "<group>"; };
-		4D1868E41ED6E31400F8C3C0 /* ConcreteDecoratorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorB.h; sourceTree = "<group>"; };
-		4D1868E51ED6E31400F8C3C0 /* ConcreteDecoratorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorB.m; sourceTree = "<group>"; };
+		CCC8429F20C173A900080F72 /* LTPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPerson.h; sourceTree = "<group>"; };
+		CCC842A020C173A900080F72 /* LTPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPerson.m; sourceTree = "<group>"; };
+		CCC842A220C1742100080F72 /* LTFinery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTFinery.h; sourceTree = "<group>"; };
+		CCC842A320C1742100080F72 /* LTFinery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFinery.m; sourceTree = "<group>"; };
 		DD17B1AA1B7B058000943EDE /* 3装饰模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3装饰模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD17B1AE1B7B058000943EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD17B1AF1B7B058000943EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,10 +71,8 @@
 		4D1868D61ED6E22400F8C3C0 /* component */ = {
 			isa = PBXGroup;
 			children = (
-				4D1868D81ED6E27400F8C3C0 /* Component.h */,
-				4D1868D91ED6E27400F8C3C0 /* Component.m */,
-				4D1868DB1ED6E2B200F8C3C0 /* ConcreteComponent.h */,
-				4D1868DC1ED6E2B200F8C3C0 /* ConcreteComponent.m */,
+				CCC8429F20C173A900080F72 /* LTPerson.h */,
+				CCC842A020C173A900080F72 /* LTPerson.m */,
 			);
 			name = component;
 			sourceTree = "<group>";
@@ -91,12 +80,8 @@
 		4D1868D71ED6E23000F8C3C0 /* decorator */ = {
 			isa = PBXGroup;
 			children = (
-				4D1868DE1ED6E2D500F8C3C0 /* Decorator.h */,
-				4D1868DF1ED6E2D500F8C3C0 /* Decorator.m */,
-				4D1868E11ED6E30900F8C3C0 /* ConcreteDecoratorA.h */,
-				4D1868E21ED6E30900F8C3C0 /* ConcreteDecoratorA.m */,
-				4D1868E41ED6E31400F8C3C0 /* ConcreteDecoratorB.h */,
-				4D1868E51ED6E31400F8C3C0 /* ConcreteDecoratorB.m */,
+				CCC842A220C1742100080F72 /* LTFinery.h */,
+				CCC842A320C1742100080F72 /* LTFinery.m */,
 			);
 			name = decorator;
 			sourceTree = "<group>";
@@ -272,14 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC842A420C1742100080F72 /* LTFinery.m in Sources */,
+				CCC842A120C173A900080F72 /* LTPerson.m in Sources */,
 				DD17B1B61B7B058000943EDE /* ViewController.m in Sources */,
-				4D1868DA1ED6E27400F8C3C0 /* Component.m in Sources */,
 				DD17B1B31B7B058000943EDE /* AppDelegate.m in Sources */,
-				4D1868E31ED6E30900F8C3C0 /* ConcreteDecoratorA.m in Sources */,
-				4D1868DD1ED6E2B200F8C3C0 /* ConcreteComponent.m in Sources */,
 				DD17B1B01B7B058000943EDE /* main.m in Sources */,
-				4D1868E01ED6E2D500F8C3C0 /* Decorator.m in Sources */,
-				4D1868E61ED6E31400F8C3C0 /* ConcreteDecoratorB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

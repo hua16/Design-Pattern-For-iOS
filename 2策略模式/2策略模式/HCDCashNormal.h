@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HCDCashBase.h"
-@interface HCDCashNormal : NSObject<HCDCashBase>
+#import "HCDCashProtocol.h"
+
+@interface HCDCashNormal : NSObject<HCDCashProtocol>
 
 @end

@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface HCDFound : NSObject
+
 -(void)buyFund;
+
 -(void)sellFund;
+
 @end

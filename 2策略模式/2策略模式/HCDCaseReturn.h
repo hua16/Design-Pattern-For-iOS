@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HCDCashBase.h"
-@interface HCDCaseReturn : NSObject<HCDCashBase>
+#import "HCDCashProtocol.h"
+
+@interface HCDCaseReturn : NSObject<HCDCashProtocol>
+
 -(instancetype)initWithMoneyReturn:(CGFloat)moneyReturn;
+
 @end

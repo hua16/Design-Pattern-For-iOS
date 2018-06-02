@@ -21,11 +21,6 @@
     HCDFound *found = [[HCDFound alloc]init];
     [found buyFund];
     [found sellFund];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+} 
 
 @end

@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface HCDschoolGirl : NSObject
+
 @property(nonatomic,strong)NSString *name;
+
 @end

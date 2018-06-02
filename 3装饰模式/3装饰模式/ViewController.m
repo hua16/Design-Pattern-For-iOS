@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "ConcreteDecoratorA.h"
-#import "ConcreteDecoratorB.h"
-#import "ConcreteComponent.h"
+#import "LTPerson.h"
+#import "LTFinery.h"
 
 @interface ViewController ()
 
@@ -19,20 +18,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //原始对象
-    ConcreteComponent *component = [[ConcreteComponent alloc]init];
-    //装饰对象
-    ConcreteDecoratorA *decoratorA = [[ConcreteDecoratorA alloc]init];
-    ConcreteDecoratorB *decoratorB = [[ConcreteDecoratorB alloc]init];
     
-    //装饰对象指定原始对象，后面就是用装饰对象。这样既有原始对象的功能，也有装饰对象的功能。
-    decoratorA.component = component;
-    decoratorB.component = component;
+    LTPerson *xc = [[LTPerson alloc] initWithName:@"小菜"];
     
-    [decoratorA operation];
-    [decoratorB operation];
+    NSLog(@"\n第一种装扮");
+    LTSneakers *sneaker = [[LTSneakers alloc] init];
+    LTBigTrouser *bigTrouser = [[LTBigTrouser alloc] init];
+    LTTshirts *tshirts = [[LTTshirts alloc] init];
     
+    [sneaker decorate:xc];
+    [bigTrouser decorate:sneaker];
+    [tshirts decorate:bigTrouser];
+    [tshirts show];
+    
+    NSLog(@"\n第二种装扮");
+    LTLeatherShoes *leatherShoes = [[LTLeatherShoes alloc] init];
+    LTTie *tie = [[LTTie alloc] init];
+    LTSuit *suit = [[LTSuit alloc] init];
+    
+    [leatherShoes decorate:xc];
+    [tie decorate:leatherShoes];
+    [suit decorate:tie];
+    [suit show];
 }
 
-
 @end
+

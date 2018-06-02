@@ -11,26 +11,29 @@
 #import "HCDCalculateDivide.h"
 #import "HCDCalculateMinus.h"
 #import "HCDCalcuteMultiply.h"
-#import "CommonTool.h"
-
 
 @implementation HCDCalcuteFactory
-+(id<HCDCalculate>)createCalcute:(NSString *)calculatetype{
+
++(HCDCalculate *)createCalcute:(NSString *)calculatetype {
     
     NSArray *calculateArray = @[@"+",@"-",@"*",@"/"];
-    CalculateType calType = [calculateArray indexOfObject:calculatetype];
+    
+    if (![calculateArray containsObject:calculatetype]) {
+        return nil;
+    }
+    HCDCalculateType calType = [calculateArray indexOfObject:calculatetype];
     
     
     switch (calType) {
-        case calcuteTypeAdd:
+        case HCDCalculateTypeAdd:
             return [[HCDCalculateAdd alloc]init];
             break;
-        case calcuteTypeMinus:
+        case HCDCalculateTypeMinus:
             return [[HCDCalculateMinus alloc]init];
             break;
-        case calcuteTypdeMultipy:
+        case HCDCalculateTypeMultipy:
             return [[HCDCalcuteMultiply alloc]init];
-        case calcuteTypeDivide:
+        case HCDCalculateTypeDivide:
             return [[HCDCalculateDivide alloc]init];
     }
 }

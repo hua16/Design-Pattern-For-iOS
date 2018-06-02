@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCC842DC20C2461800080F72 /* HCDstock.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842DB20C2461800080F72 /* HCDstock.m */; };
 		DD4F86781B7C322100A32343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F86771B7C322100A32343 /* main.m */; };
 		DD4F867B1B7C322100A32343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F867A1B7C322100A32343 /* AppDelegate.m */; };
 		DD4F867E1B7C322200A32343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F867D1B7C322200A32343 /* ViewController.m */; };
@@ -31,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCC842D920C2453400080F72 /* HCDStockProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDStockProtocol.h; sourceTree = "<group>"; };
+		CCC842DA20C2461800080F72 /* HCDstock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDstock.h; sourceTree = "<group>"; };
+		CCC842DB20C2461800080F72 /* HCDstock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDstock.m; sourceTree = "<group>"; };
 		DD4F86721B7C322100A32343 /* 7外观模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7外观模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F86761B7C322100A32343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4F86771B7C322100A32343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +147,9 @@
 				DD4F86A31B7C34D300A32343 /* HCDstock3.m */,
 				DD4F86A51B7C350400A32343 /* HCDFound.h */,
 				DD4F86A61B7C350400A32343 /* HCDFound.m */,
+				CCC842D920C2453400080F72 /* HCDStockProtocol.h */,
+				CCC842DA20C2461800080F72 /* HCDstock.h */,
+				CCC842DB20C2461800080F72 /* HCDstock.m */,
 			);
 			name = "外观模式";
 			sourceTree = "<group>";
@@ -247,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC842DC20C2461800080F72 /* HCDstock.m in Sources */,
 				DD4F86A41B7C34D300A32343 /* HCDstock3.m in Sources */,
 				DD4F86A11B7C34C200A32343 /* HCDstock2.m in Sources */,
 				DD4F86A71B7C350400A32343 /* HCDFound.m in Sources */,
@@ -448,6 +456,7 @@
 				DD4F86971B7C322200A32343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD4F86981B7C322200A32343 /* Build configuration list for PBXNativeTarget "7外观模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +465,7 @@
 				DD4F869A1B7C322200A32343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

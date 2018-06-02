@@ -10,11 +10,13 @@
 
 @interface HCDCaseReturn ()
 
-@property(nonatomic)CGFloat moneyReturn;
+@property (nonatomic, assign)CGFloat moneyReturn;
+
 @end
 
 @implementation HCDCaseReturn
-//@synthesize money = _money;
+
+#pragma mark - life cycle
 
 -(instancetype)initWithMoneyReturn:(CGFloat)moneyReturn{
     self = [super init];
@@ -23,7 +25,11 @@
     }
     return self;
 }
+
+#pragma mark - HCDCashProtocol
+
 -(CGFloat)acceptCash:(CGFloat)cash{
     return cash - self.moneyReturn;
 }
+
 @end

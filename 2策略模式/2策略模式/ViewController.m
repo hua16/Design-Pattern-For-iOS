@@ -20,16 +20,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     
-    HCDCashContext *context = [[HCDCashContext alloc]initWithCashType:CashTypeNormal];
+    HCDCashContext *context = [[HCDCashContext alloc] initWithCashType:HCDCashTypeNormal];
     NSLog(@"结果是%f",[context getResult:100]);
 
-    
-    HCDCashContext *contextReturn = [[HCDCashContext alloc]initWithCashType:CashTypeReturn];
+    HCDCashContext *contextReturn = [[HCDCashContext alloc] initWithCashType:HCDCashTypeReturn];
     NSLog(@"结果是%f",[contextReturn getResult:100]);
     
-    HCDCashContext *contextRobate = [[HCDCashContext alloc]initWithCashType:CashTypeRobate];
+    HCDCashContext *contextRobate = [[HCDCashContext alloc] initWithCashType:HCDCashTypeRobate];
     NSLog(@"结果是%f",[contextRobate getResult:100]);
 }
 

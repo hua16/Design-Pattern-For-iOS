@@ -9,10 +9,13 @@
 #import "HCDtextPaperA.h"
 
 @implementation HCDtextPaperA
+
 -(NSString *)answer1{
     return @"b";
 }
+
 -(NSString *)answer2{
     return @"c";
 }
+
 @end

@@ -9,11 +9,13 @@
 #import "HCDCashRobate.h"
 
 @interface HCDCashRobate ()
-@property(nonatomic)CGFloat moneyRebate;
+
+@property (nonatomic, assign) CGFloat moneyRebate;
+
 @end
 
 @implementation HCDCashRobate
-//@synthesize money = _money;
+
 -(instancetype)initWithMoneyRebate:(CGFloat)moneyRebate{
     self = [super init];
     if (self) {

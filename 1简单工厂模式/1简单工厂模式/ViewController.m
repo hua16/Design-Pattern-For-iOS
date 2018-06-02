@@ -20,25 +20,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
-
 - (IBAction)calculate:(id)sender {
-    id<HCDCalculate> cal;
     
-    cal =[HCDCalcuteFactory createCalcute:self.countTextField.text];
+    HCDCalculate *cal = [HCDCalcuteFactory createCalcute:self.countTextField.text];
+    
+    if (!cal) {
+        NSLog(@"calcute type is wrong!");
+        return;
+    }
+    
     cal.numberA = [self.numberA.text floatValue];
     cal.numberB = [self.numberB.text floatValue];
     CGFloat result =  [cal calculate];
-    //NSLog(@"结%@")
     self.resultTextfield.text = [@(result) stringValue];
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

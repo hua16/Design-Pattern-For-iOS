@@ -11,10 +11,13 @@
 #import "HCDpursuit.h"
 
 @interface HCDproxy ()
+
 @property (strong, nonatomic) HCDpursuit *pursuit;
+
 @end
 
 @implementation HCDproxy
+
 - (instancetype)initWithSchoolGirl:(HCDschoolGirl *)schoolGirl {
     self = [super init];
     if (self) {
