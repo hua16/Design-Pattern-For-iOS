@@ -9,8 +9,23 @@
 #import <Foundation/Foundation.h>
 
 @interface HCDtextPaper : NSObject
+
 - (void)testQuestion1;
-- (NSString *)answer1;
+
 - (void)testQuestion2;
+
+/**
+ 子类需要重写这个方法
+
+ @return 结果
+ */
+- (NSString *)answer1;
+
+/**
+ 子类需要重写这个方法
+ 
+ @return 结果
+ */
 - (NSString *)answer2;
+
 @end
