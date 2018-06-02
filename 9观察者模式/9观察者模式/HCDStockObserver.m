@@ -9,7 +9,8 @@
 #import "HCDStockObserver.h"
 
 @implementation HCDStockObserver
--(void)update{
-    NSLog(@"操。。老板回来了,带会儿再看");
+
+- (void)update{
+    NSLog(@"老板回来了,带会儿再看");
 }
 @end

@@ -10,11 +10,15 @@
 #import "HCDObserver.h"
 #import "HCDNBAObserver.h"
 #import "HCDStockObserver.h"
-#import "HCDSecreteSubject.h"
+#import "HCDGameObserver.h"
 
-typedef id<HCDObserver> HCDObserver;
+#import "HCDServiceCenter.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) HCDNBAObserver *nbaobserver;
+@property (nonatomic, strong) HCDStockObserver *stockobserver;
+@property (nonatomic, strong) HCDGameObserver *gameObserver;
 
 @end
 
@@ -23,24 +27,40 @@ typedef id<HCDObserver> HCDObserver;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HCDSubject *subject = [[HCDSecreteSubject alloc]init];
-    //添加三个通知对象
-    HCDObserver nbaobserver = [[HCDNBAObserver alloc]init];
-    [subject attach:nbaobserver];
-    HCDObserver stockobserver = [[HCDStockObserver alloc]init];
-    [subject attach:stockobserver];
-    HCDObserver stockobserver1 = [[HCDStockObserver alloc]init];
-    [subject attach:stockobserver1];
-    //删除一个通知对象
-    [subject detach:stockobserver];
+    HCDServiceCenter *serviceCenter = [[HCDServiceCenter alloc] init];
     
-    [subject notify];
+    [serviceCenter addDelegate:self.nbaobserver];
+    [serviceCenter addDelegate:self.stockobserver];
+    [serviceCenter addDelegate:self.gameObserver];
     
+    NSLog(@"秘书通知：老板回来了，大家赶紧撤"); 
+    [serviceCenter notifyServiceDelegate:@selector(update)
+                                 perform:^(id responder) {
+                                     [responder update];
+    }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - getter & setter
+
+-(HCDNBAObserver *)nbaobserver {
+    if (!_nbaobserver) {
+        _nbaobserver = [[HCDNBAObserver alloc] init];
+    }
+    return _nbaobserver;
+}
+
+-(HCDStockObserver *)stockobserver {
+    if (!_stockobserver) {
+      _stockobserver = [[HCDStockObserver alloc] init];
+    }
+    return _stockobserver;
+}
+
+-(HCDGameObserver *)gameObserver {
+    if (!_gameObserver) {
+        _gameObserver = [[HCDGameObserver alloc] init];
+    }
+    return _gameObserver;
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDObserver.h"
+
 @interface HCDStockObserver : NSObject<HCDObserver>
 
 @end

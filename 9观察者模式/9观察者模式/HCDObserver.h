@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @protocol HCDObserver <NSObject>
+
 @optional
--(void)update;
+- (void)update;
+
 @end

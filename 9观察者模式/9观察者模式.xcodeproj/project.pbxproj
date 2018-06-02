@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6EFA90320C2946F0067EF42 /* HCDServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFA90220C2946F0067EF42 /* HCDServiceCenter.m */; };
+		C6EFA90620C29B170067EF42 /* HCDGameObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFA90520C29B170067EF42 /* HCDGameObserver.m */; };
 		DDBEA9AB1B7C87BF004874A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9AA1B7C87BF004874A1 /* main.m */; };
 		DDBEA9AE1B7C87BF004874A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9AD1B7C87BF004874A1 /* AppDelegate.m */; };
 		DDBEA9B11B7C87BF004874A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9B01B7C87BF004874A1 /* ViewController.m */; };
@@ -15,8 +17,6 @@
 		DDBEA9B91B7C87BF004874A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBEA9B71B7C87BF004874A1 /* LaunchScreen.xib */; };
 		DDBEA9C51B7C87BF004874A1 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9C41B7C87BF004874A1 /* ______Tests.m */; };
 		DDBEA9CF1B7C8C44004874A1 /* 观察者模式类图.png in Resources */ = {isa = PBXBuildFile; fileRef = DDBEA9CE1B7C8C44004874A1 /* 观察者模式类图.png */; };
-		DDBEA9D41B7C9C36004874A1 /* HCDSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9D31B7C9C36004874A1 /* HCDSubject.m */; };
-		DDBEA9D81B7C9D19004874A1 /* HCDSecreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9D71B7C9D19004874A1 /* HCDSecreteSubject.m */; };
 		DDBEA9DB1B7C9EC2004874A1 /* HCDStockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9DA1B7C9EC2004874A1 /* HCDStockObserver.m */; };
 		DDBEA9DE1B7C9F18004874A1 /* HCDNBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBEA9DD1B7C9F18004874A1 /* HCDNBAObserver.m */; };
 /* End PBXBuildFile section */
@@ -32,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6EFA90120C2946F0067EF42 /* HCDServiceCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDServiceCenter.h; sourceTree = "<group>"; };
+		C6EFA90220C2946F0067EF42 /* HCDServiceCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDServiceCenter.m; sourceTree = "<group>"; };
+		C6EFA90420C29B170067EF42 /* HCDGameObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDGameObserver.h; sourceTree = "<group>"; };
+		C6EFA90520C29B170067EF42 /* HCDGameObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDGameObserver.m; sourceTree = "<group>"; };
 		DDBEA9A51B7C87BF004874A1 /* 9观察者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "9观察者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBEA9A91B7C87BF004874A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBEA9AA1B7C87BF004874A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,11 +50,7 @@
 		DDBEA9C31B7C87BF004874A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBEA9C41B7C87BF004874A1 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
 		DDBEA9CE1B7C8C44004874A1 /* 观察者模式类图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "观察者模式类图.png"; sourceTree = "<group>"; };
-		DDBEA9D21B7C9C36004874A1 /* HCDSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSubject.h; sourceTree = "<group>"; };
-		DDBEA9D31B7C9C36004874A1 /* HCDSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSubject.m; sourceTree = "<group>"; };
 		DDBEA9D51B7C9C79004874A1 /* HCDObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDObserver.h; sourceTree = "<group>"; };
-		DDBEA9D61B7C9D19004874A1 /* HCDSecreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDSecreteSubject.h; sourceTree = "<group>"; };
-		DDBEA9D71B7C9D19004874A1 /* HCDSecreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDSecreteSubject.m; sourceTree = "<group>"; };
 		DDBEA9D91B7C9EC2004874A1 /* HCDStockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDStockObserver.h; sourceTree = "<group>"; };
 		DDBEA9DA1B7C9EC2004874A1 /* HCDStockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDStockObserver.m; sourceTree = "<group>"; };
 		DDBEA9DC1B7C9F18004874A1 /* HCDNBAObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNBAObserver.h; sourceTree = "<group>"; };
@@ -139,15 +139,15 @@
 		DDBEA9D01B7C9BE2004874A1 /* 观察者模式 */ = {
 			isa = PBXGroup;
 			children = (
-				DDBEA9D21B7C9C36004874A1 /* HCDSubject.h */,
-				DDBEA9D31B7C9C36004874A1 /* HCDSubject.m */,
-				DDBEA9D61B7C9D19004874A1 /* HCDSecreteSubject.h */,
-				DDBEA9D71B7C9D19004874A1 /* HCDSecreteSubject.m */,
+				C6EFA90120C2946F0067EF42 /* HCDServiceCenter.h */,
+				C6EFA90220C2946F0067EF42 /* HCDServiceCenter.m */,
 				DDBEA9D51B7C9C79004874A1 /* HCDObserver.h */,
 				DDBEA9D91B7C9EC2004874A1 /* HCDStockObserver.h */,
 				DDBEA9DA1B7C9EC2004874A1 /* HCDStockObserver.m */,
 				DDBEA9DC1B7C9F18004874A1 /* HCDNBAObserver.h */,
 				DDBEA9DD1B7C9F18004874A1 /* HCDNBAObserver.m */,
+				C6EFA90420C29B170067EF42 /* HCDGameObserver.h */,
+				C6EFA90520C29B170067EF42 /* HCDGameObserver.m */,
 			);
 			name = "观察者模式";
 			sourceTree = "<group>";
@@ -255,11 +255,11 @@
 			files = (
 				DDBEA9B11B7C87BF004874A1 /* ViewController.m in Sources */,
 				DDBEA9AE1B7C87BF004874A1 /* AppDelegate.m in Sources */,
+				C6EFA90620C29B170067EF42 /* HCDGameObserver.m in Sources */,
 				DDBEA9DB1B7C9EC2004874A1 /* HCDStockObserver.m in Sources */,
 				DDBEA9DE1B7C9F18004874A1 /* HCDNBAObserver.m in Sources */,
-				DDBEA9D41B7C9C36004874A1 /* HCDSubject.m in Sources */,
 				DDBEA9AB1B7C87BF004874A1 /* main.m in Sources */,
-				DDBEA9D81B7C9D19004874A1 /* HCDSecreteSubject.m in Sources */,
+				C6EFA90320C2946F0067EF42 /* HCDServiceCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 #import "HCDNBAObserver.h"
 
 @implementation HCDNBAObserver
--(void)update{
-    NSLog(@"擦，老板回来了，待会儿继续看NBA");
+- (void)update{
+    NSLog(@"老板回来了，待会儿继续看NBA");
 }
 @end
