@@ -8,7 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDgiveGift.h"
+
 @class HCDschoolGirl,HCDpursuit;
+
 @interface HCDproxy : NSObject<HCDgiveGift>
+
 -(instancetype)initWithSchoolGirl:(HCDschoolGirl *)schoolGirl;
+
 @end

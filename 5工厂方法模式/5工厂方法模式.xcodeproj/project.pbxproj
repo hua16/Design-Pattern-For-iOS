@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCC842BD20C22F1200080F72 /* HCDfactoryDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842A920C22F1200080F72 /* HCDfactoryDivide.m */; };
+		CCC842BE20C22F1200080F72 /* HCDfactoryMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842AA20C22F1200080F72 /* HCDfactoryMultiply.m */; };
+		CCC842BF20C22F1200080F72 /* HCDfactoryMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842AB20C22F1200080F72 /* HCDfactoryMinus.m */; };
+		CCC842C020C22F1200080F72 /* HCDfactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842AF20C22F1200080F72 /* HCDfactory.m */; };
+		CCC842C120C22F1200080F72 /* HCDfactoryAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842B220C22F1200080F72 /* HCDfactoryAdd.m */; };
+		CCC842D320C22F5900080F72 /* HCDCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842C620C22F5800080F72 /* HCDCalculate.m */; };
+		CCC842D420C22F5900080F72 /* HCDCalcuteMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842C820C22F5800080F72 /* HCDCalcuteMultiply.m */; };
+		CCC842D520C22F5900080F72 /* HCDCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842CA20C22F5800080F72 /* HCDCalculateMinus.m */; };
+		CCC842D620C22F5900080F72 /* HCDCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842CF20C22F5900080F72 /* HCDCalculateAdd.m */; };
+		CCC842D820C22F5900080F72 /* HCDCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842D220C22F5900080F72 /* HCDCalculateDivide.m */; };
 		DD17B2311B7B2B3B00943EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2301B7B2B3B00943EDE /* main.m */; };
 		DD17B2341B7B2B3B00943EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2331B7B2B3B00943EDE /* AppDelegate.m */; };
 		DD17B2371B7B2B3B00943EDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2361B7B2B3B00943EDE /* ViewController.m */; };
@@ -14,15 +24,6 @@
 		DD17B23C1B7B2B3B00943EDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD17B23B1B7B2B3B00943EDE /* Images.xcassets */; };
 		DD17B23F1B7B2B3B00943EDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD17B23D1B7B2B3B00943EDE /* LaunchScreen.xib */; };
 		DD17B24B1B7B2B3B00943EDE /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B24A1B7B2B3B00943EDE /* _______Tests.m */; };
-		DD17B25E1B7B32DF00943EDE /* HCDCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2571B7B32DF00943EDE /* HCDCalculateAdd.m */; };
-		DD17B25F1B7B32DF00943EDE /* HCDCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2591B7B32DF00943EDE /* HCDCalculateDivide.m */; };
-		DD17B2601B7B32DF00943EDE /* HCDCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B25B1B7B32DF00943EDE /* HCDCalculateMinus.m */; };
-		DD17B2611B7B32DF00943EDE /* HCDCalcuteMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B25D1B7B32DF00943EDE /* HCDCalcuteMultiply.m */; };
-		DD17B2651B7B33B000943EDE /* HCDfactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2641B7B33B000943EDE /* HCDfactory.m */; };
-		DD17B2681B7B341300943EDE /* HCDfactoryAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B2671B7B341300943EDE /* HCDfactoryAdd.m */; };
-		DD17B26B1B7B344900943EDE /* HCDfactoryMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B26A1B7B344900943EDE /* HCDfactoryMinus.m */; };
-		DD17B2701B7B348500943EDE /* HCDfactoryDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B26D1B7B348500943EDE /* HCDfactoryDivide.m */; };
-		DD17B2711B7B348500943EDE /* HCDfactoryMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17B26F1B7B348500943EDE /* HCDfactoryMultiply.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCC842A920C22F1200080F72 /* HCDfactoryDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryDivide.m; sourceTree = "<group>"; };
+		CCC842AA20C22F1200080F72 /* HCDfactoryMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMultiply.m; sourceTree = "<group>"; };
+		CCC842AB20C22F1200080F72 /* HCDfactoryMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMinus.m; sourceTree = "<group>"; };
+		CCC842AC20C22F1200080F72 /* HCDfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactory.h; sourceTree = "<group>"; };
+		CCC842AD20C22F1200080F72 /* HCDfactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryAdd.h; sourceTree = "<group>"; };
+		CCC842AE20C22F1200080F72 /* HCDfactoryDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryDivide.h; sourceTree = "<group>"; };
+		CCC842AF20C22F1200080F72 /* HCDfactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactory.m; sourceTree = "<group>"; };
+		CCC842B020C22F1200080F72 /* HCDfactoryMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMinus.h; sourceTree = "<group>"; };
+		CCC842B120C22F1200080F72 /* HCDfactoryMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMultiply.h; sourceTree = "<group>"; };
+		CCC842B220C22F1200080F72 /* HCDfactoryAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryAdd.m; sourceTree = "<group>"; };
+		CCC842C620C22F5800080F72 /* HCDCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculate.m; sourceTree = "<group>"; };
+		CCC842C720C22F5800080F72 /* HCDCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateAdd.h; sourceTree = "<group>"; };
+		CCC842C820C22F5800080F72 /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteMultiply.m; sourceTree = "<group>"; };
+		CCC842CA20C22F5800080F72 /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateMinus.m; sourceTree = "<group>"; };
+		CCC842CB20C22F5800080F72 /* HCDCalculateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateProtocol.h; sourceTree = "<group>"; };
+		CCC842CC20C22F5800080F72 /* HCDCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculate.h; sourceTree = "<group>"; };
+		CCC842CD20C22F5800080F72 /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateMinus.h; sourceTree = "<group>"; };
+		CCC842CE20C22F5800080F72 /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateDivide.h; sourceTree = "<group>"; };
+		CCC842CF20C22F5900080F72 /* HCDCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateAdd.m; sourceTree = "<group>"; };
+		CCC842D020C22F5900080F72 /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteMultiply.h; sourceTree = "<group>"; };
+		CCC842D220C22F5900080F72 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
 		DD17B22B1B7B2B3B00943EDE /* 5工厂方法模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5工厂方法模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD17B22F1B7B2B3B00943EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD17B2301B7B2B3B00943EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,25 +71,6 @@
 		DD17B2441B7B2B3B00943EDE /* 5工厂方法模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5工厂方法模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD17B2491B7B2B3B00943EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD17B24A1B7B2B3B00943EDE /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
-		DD17B2551B7B32DF00943EDE /* HCDCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculate.h; sourceTree = "<group>"; };
-		DD17B2561B7B32DF00943EDE /* HCDCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateAdd.h; sourceTree = "<group>"; };
-		DD17B2571B7B32DF00943EDE /* HCDCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateAdd.m; sourceTree = "<group>"; };
-		DD17B2581B7B32DF00943EDE /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateDivide.h; sourceTree = "<group>"; };
-		DD17B2591B7B32DF00943EDE /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
-		DD17B25A1B7B32DF00943EDE /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateMinus.h; sourceTree = "<group>"; };
-		DD17B25B1B7B32DF00943EDE /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateMinus.m; sourceTree = "<group>"; };
-		DD17B25C1B7B32DF00943EDE /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteMultiply.h; sourceTree = "<group>"; };
-		DD17B25D1B7B32DF00943EDE /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteMultiply.m; sourceTree = "<group>"; };
-		DD17B2631B7B33B000943EDE /* HCDfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactory.h; sourceTree = "<group>"; };
-		DD17B2641B7B33B000943EDE /* HCDfactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactory.m; sourceTree = "<group>"; };
-		DD17B2661B7B341300943EDE /* HCDfactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryAdd.h; sourceTree = "<group>"; };
-		DD17B2671B7B341300943EDE /* HCDfactoryAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryAdd.m; sourceTree = "<group>"; };
-		DD17B2691B7B344900943EDE /* HCDfactoryMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMinus.h; sourceTree = "<group>"; };
-		DD17B26A1B7B344900943EDE /* HCDfactoryMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMinus.m; sourceTree = "<group>"; };
-		DD17B26C1B7B348500943EDE /* HCDfactoryDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryDivide.h; sourceTree = "<group>"; };
-		DD17B26D1B7B348500943EDE /* HCDfactoryDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryDivide.m; sourceTree = "<group>"; };
-		DD17B26E1B7B348500943EDE /* HCDfactoryMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMultiply.h; sourceTree = "<group>"; };
-		DD17B26F1B7B348500943EDE /* HCDfactoryMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMultiply.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCC842A820C22F1200080F72 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				CCC842AC20C22F1200080F72 /* HCDfactory.h */,
+				CCC842AF20C22F1200080F72 /* HCDfactory.m */,
+				CCC842AD20C22F1200080F72 /* HCDfactoryAdd.h */,
+				CCC842B220C22F1200080F72 /* HCDfactoryAdd.m */,
+				CCC842AE20C22F1200080F72 /* HCDfactoryDivide.h */,
+				CCC842A920C22F1200080F72 /* HCDfactoryDivide.m */,
+				CCC842B020C22F1200080F72 /* HCDfactoryMinus.h */,
+				CCC842AB20C22F1200080F72 /* HCDfactoryMinus.m */,
+				CCC842B120C22F1200080F72 /* HCDfactoryMultiply.h */,
+				CCC842AA20C22F1200080F72 /* HCDfactoryMultiply.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		CCC842B320C22F1200080F72 /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				CCC842CC20C22F5800080F72 /* HCDCalculate.h */,
+				CCC842C620C22F5800080F72 /* HCDCalculate.m */,
+				CCC842C720C22F5800080F72 /* HCDCalculateAdd.h */,
+				CCC842CF20C22F5900080F72 /* HCDCalculateAdd.m */,
+				CCC842CE20C22F5800080F72 /* HCDCalculateDivide.h */,
+				CCC842D220C22F5900080F72 /* HCDCalculateDivide.m */,
+				CCC842CD20C22F5800080F72 /* HCDCalculateMinus.h */,
+				CCC842CA20C22F5800080F72 /* HCDCalculateMinus.m */,
+				CCC842CB20C22F5800080F72 /* HCDCalculateProtocol.h */,
+				CCC842D020C22F5900080F72 /* HCDCalcuteMultiply.h */,
+				CCC842C820C22F5800080F72 /* HCDCalcuteMultiply.m */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
 		DD17B2221B7B2B3B00943EDE = {
 			isa = PBXGroup;
 			children = (
@@ -151,25 +189,8 @@
 		DD17B2541B7B326800943EDE /* 工厂方法 */ = {
 			isa = PBXGroup;
 			children = (
-				DD17B26C1B7B348500943EDE /* HCDfactoryDivide.h */,
-				DD17B26D1B7B348500943EDE /* HCDfactoryDivide.m */,
-				DD17B26E1B7B348500943EDE /* HCDfactoryMultiply.h */,
-				DD17B26F1B7B348500943EDE /* HCDfactoryMultiply.m */,
-				DD17B2551B7B32DF00943EDE /* HCDCalculate.h */,
-				DD17B2561B7B32DF00943EDE /* HCDCalculateAdd.h */,
-				DD17B2571B7B32DF00943EDE /* HCDCalculateAdd.m */,
-				DD17B2581B7B32DF00943EDE /* HCDCalculateDivide.h */,
-				DD17B2591B7B32DF00943EDE /* HCDCalculateDivide.m */,
-				DD17B25A1B7B32DF00943EDE /* HCDCalculateMinus.h */,
-				DD17B25B1B7B32DF00943EDE /* HCDCalculateMinus.m */,
-				DD17B25C1B7B32DF00943EDE /* HCDCalcuteMultiply.h */,
-				DD17B25D1B7B32DF00943EDE /* HCDCalcuteMultiply.m */,
-				DD17B2631B7B33B000943EDE /* HCDfactory.h */,
-				DD17B2641B7B33B000943EDE /* HCDfactory.m */,
-				DD17B2661B7B341300943EDE /* HCDfactoryAdd.h */,
-				DD17B2671B7B341300943EDE /* HCDfactoryAdd.m */,
-				DD17B2691B7B344900943EDE /* HCDfactoryMinus.h */,
-				DD17B26A1B7B344900943EDE /* HCDfactoryMinus.m */,
+				CCC842B320C22F1200080F72 /* Calculate */,
+				CCC842A820C22F1200080F72 /* Factory */,
 			);
 			name = "工厂方法";
 			sourceTree = "<group>";
@@ -275,17 +296,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD17B2371B7B2B3B00943EDE /* ViewController.m in Sources */,
-				DD17B26B1B7B344900943EDE /* HCDfactoryMinus.m in Sources */,
+				CCC842D420C22F5900080F72 /* HCDCalcuteMultiply.m in Sources */,
+				CCC842D620C22F5900080F72 /* HCDCalculateAdd.m in Sources */,
+				CCC842BD20C22F1200080F72 /* HCDfactoryDivide.m in Sources */,
+				CCC842C120C22F1200080F72 /* HCDfactoryAdd.m in Sources */,
 				DD17B2341B7B2B3B00943EDE /* AppDelegate.m in Sources */,
-				DD17B25E1B7B32DF00943EDE /* HCDCalculateAdd.m in Sources */,
-				DD17B2681B7B341300943EDE /* HCDfactoryAdd.m in Sources */,
-				DD17B2601B7B32DF00943EDE /* HCDCalculateMinus.m in Sources */,
-				DD17B2611B7B32DF00943EDE /* HCDCalcuteMultiply.m in Sources */,
+				CCC842D320C22F5900080F72 /* HCDCalculate.m in Sources */,
+				CCC842C020C22F1200080F72 /* HCDfactory.m in Sources */,
+				CCC842BE20C22F1200080F72 /* HCDfactoryMultiply.m in Sources */,
 				DD17B2311B7B2B3B00943EDE /* main.m in Sources */,
-				DD17B2711B7B348500943EDE /* HCDfactoryMultiply.m in Sources */,
-				DD17B2701B7B348500943EDE /* HCDfactoryDivide.m in Sources */,
-				DD17B2651B7B33B000943EDE /* HCDfactory.m in Sources */,
-				DD17B25F1B7B32DF00943EDE /* HCDCalculateDivide.m in Sources */,
+				CCC842BF20C22F1200080F72 /* HCDfactoryMinus.m in Sources */,
+				CCC842D520C22F5900080F72 /* HCDCalculateMinus.m in Sources */,
+				CCC842D820C22F5900080F72 /* HCDCalculateDivide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +502,7 @@
 				DD17B2501B7B2B3B00943EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD17B2511B7B2B3B00943EDE /* Build configuration list for PBXNativeTarget "5工厂方法模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +511,7 @@
 				DD17B2531B7B2B3B00943EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
