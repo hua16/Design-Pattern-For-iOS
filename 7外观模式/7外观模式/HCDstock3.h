@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h> 
+#import "HCDstock.h"
 
-@interface HCDstock3 : NSObject
--(void)buy;
--(void)sell;
+@interface HCDstock3 : HCDstock
+
 @end

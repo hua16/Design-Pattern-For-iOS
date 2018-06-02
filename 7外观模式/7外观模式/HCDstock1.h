@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HCDstock.h"
 
-@interface HCDstock1 : NSObject
--(void)buy;
--(void)sell;
+@interface HCDstock1 : HCDstock 
+
 @end
