@@ -2,30 +2,22 @@
 //  HCDPresionBuilder.h
 //  8建造者模式
 //
-//  Created by yifan on 15/8/13.
-//  Copyright (c) 2015年 黄成都. All rights reserved.
+//  Created by lever on 2018/6/2.
+//  Copyright © 2018年 黄成都. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "HCDPresionBuilderProtocol.h"
+#import "HCDHeader.h"
+#import "HCDBody.h"
+#import "HCDLeg.h"
+#import "HCDArm.h"
 
-typedef  NS_ENUM(NSUInteger,BuildOption){
-    BuildFat,
-    BuildThin
-};
+@interface HCDPresionBuilder : NSObject<HCDPresionBuilderProtocol>
 
-
-
-@protocol HCDPresionBuilder <NSObject>
-
--(void)buildHead;
--(void)buildBody;
--(void)buildArmLeft;
--(void)buildArmRight;
--(void)buildLegLeft;
--(void)buildLegRight;
-
-- (void)buildPerson;
+@property(nonatomic, strong, readonly)HCDHeader *header;
+@property(nonatomic, strong, readonly)HCDBody *body;
+@property(nonatomic, strong, readonly)HCDLeg *leg;
+@property(nonatomic, strong, readonly)HCDArm *arm;
 
 @end
-
-typedef id<HCDPresionBuilder> HCDPresionBuilder;

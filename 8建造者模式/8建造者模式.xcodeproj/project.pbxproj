@@ -11,6 +11,7 @@
 		4DC94D9C1ECC6A9700A8DB96 /* HCDBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC94D9B1ECC6A9700A8DB96 /* HCDBody.m */; };
 		4DC94D9F1ECC6AA600A8DB96 /* HCDLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC94D9E1ECC6AA600A8DB96 /* HCDLeg.m */; };
 		4DC94DA21ECC6ACA00A8DB96 /* HCDArm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC94DA11ECC6ACA00A8DB96 /* HCDArm.m */; };
+		CCC842E020C24DF000080F72 /* HCDPresionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC842DF20C24DF000080F72 /* HCDPresionBuilder.m */; };
 		DD4F86B71B7C38C600A32343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F86B61B7C38C600A32343 /* main.m */; };
 		DD4F86BA1B7C38C600A32343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F86B91B7C38C600A32343 /* AppDelegate.m */; };
 		DD4F86BD1B7C38C600A32343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F86BC1B7C38C600A32343 /* ViewController.m */; };
@@ -42,6 +43,9 @@
 		4DC94D9E1ECC6AA600A8DB96 /* HCDLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDLeg.m; sourceTree = "<group>"; };
 		4DC94DA01ECC6ACA00A8DB96 /* HCDArm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDArm.h; sourceTree = "<group>"; };
 		4DC94DA11ECC6ACA00A8DB96 /* HCDArm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDArm.m; sourceTree = "<group>"; };
+		CCC842DD20C24DB200080F72 /* HCDPresionBuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDPresionBuilderProtocol.h; sourceTree = "<group>"; };
+		CCC842DE20C24DF000080F72 /* HCDPresionBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDPresionBuilder.h; sourceTree = "<group>"; };
+		CCC842DF20C24DF000080F72 /* HCDPresionBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDPresionBuilder.m; sourceTree = "<group>"; };
 		DD4F86B11B7C38C600A32343 /* 8建造者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8建造者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F86B51B7C38C600A32343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4F86B61B7C38C600A32343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,7 +59,6 @@
 		DD4F86CA1B7C38C600A32343 /* 8建造者模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8建造者模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F86CF1B7C38C600A32343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD4F86D01B7C38C600A32343 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
-		DD4F86DB1B7C48ED00A32343 /* HCDPresionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPresionBuilder.h; sourceTree = "<group>"; };
 		DD4F86DC1B7C497400A32343 /* HCDPersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPersonThinBuilder.h; sourceTree = "<group>"; };
 		DD4F86DD1B7C497400A32343 /* HCDPersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPersonThinBuilder.m; sourceTree = "<group>"; };
 		DD4F86DF1B7C49BD00A32343 /* HCDPersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPersonFatBuilder.h; sourceTree = "<group>"; };
@@ -109,11 +112,13 @@
 		4DC94DA41ECC6D2600A8DB96 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				DD4F86DB1B7C48ED00A32343 /* HCDPresionBuilder.h */,
-				DD4F86DC1B7C497400A32343 /* HCDPersonThinBuilder.h */,
-				DD4F86DD1B7C497400A32343 /* HCDPersonThinBuilder.m */,
 				DD4F86DF1B7C49BD00A32343 /* HCDPersonFatBuilder.h */,
 				DD4F86E01B7C49BD00A32343 /* HCDPersonFatBuilder.m */,
+				DD4F86DC1B7C497400A32343 /* HCDPersonThinBuilder.h */,
+				DD4F86DD1B7C497400A32343 /* HCDPersonThinBuilder.m */,
+				CCC842DE20C24DF000080F72 /* HCDPresionBuilder.h */,
+				CCC842DF20C24DF000080F72 /* HCDPresionBuilder.m */,
+				CCC842DD20C24DB200080F72 /* HCDPresionBuilderProtocol.h */,
 			);
 			name = Builder;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				4DC94D991ECC6A8500A8DB96 /* HCDHeader.m in Sources */,
 				DD4F86BD1B7C38C600A32343 /* ViewController.m in Sources */,
 				DD4F86DE1B7C497400A32343 /* HCDPersonThinBuilder.m in Sources */,
+				CCC842E020C24DF000080F72 /* HCDPresionBuilder.m in Sources */,
 				DD4F86BA1B7C38C600A32343 /* AppDelegate.m in Sources */,
 				DD4F86E11B7C49BD00A32343 /* HCDPersonFatBuilder.m in Sources */,
 				DD4F86B71B7C38C600A32343 /* main.m in Sources */,

@@ -25,7 +25,7 @@
 
 - (IBAction)buildFat:(id)sender {
     HCDPersonBuilderDirector *director = [[HCDPersonBuilderDirector alloc]init];
-    HCDPresionBuilder builder = [[HCDPersonFatBuilder alloc]init];
+    HCDPersonFatBuilder *builder = [[HCDPersonFatBuilder alloc]init];
     //为director指定builder
     director.builder = builder;
     //director发出构建的指令，builder负责具体的建造过程
@@ -35,7 +35,7 @@
 - (IBAction)buildThin:(id)sender {
     
     HCDPersonBuilderDirector *director = [[HCDPersonBuilderDirector alloc]init];
-    HCDPresionBuilder builder = [[HCDPersonThinBuilder alloc]init];
+    HCDPersonThinBuilder *builder = [[HCDPersonThinBuilder alloc]init];
     //为director指定builder
     director.builder = builder;
     //director发出构建的指令，builder负责具体的建造过程
