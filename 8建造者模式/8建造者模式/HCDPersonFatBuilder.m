@@ -22,16 +22,7 @@
     if (self) {
     }
     return self;
-}
-
--(void)buildPerson{
-    [self buildHead];
-    [self buildBody];
-    [self buildArmLeft];
-    [self buildArmRight];
-    [self buildLegLeft];
-    [self buildLegRight];
-}
+} 
 
 - (void)buildHead {
     NSLog(@"建造胖子的头部");

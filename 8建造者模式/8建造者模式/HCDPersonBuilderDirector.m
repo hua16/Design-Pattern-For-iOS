@@ -9,18 +9,32 @@
 #import "HCDPersonBuilderDirector.h"
 #import "HCDPersonFatBuilder.h"
 #import "HCDPersonThinBuilder.h"
-
+#import "HCDPresionBuilder.h"
 
 @interface HCDPersonBuilderDirector ()
+
+@property (nonatomic, strong) HCDPresionBuilder *builder;
 
 @end
 
 @implementation HCDPersonBuilderDirector
 
+- (instancetype)initWithBuilder:(HCDPresionBuilder *)builder {
+    self = [super init];
+    if (self) {
+        self.builder = builder;
+    }
+    return self;
+}
 
--(void)buildPerson{
+- (void)buildPerson {
     NSLog(@"===============director指挥builder开始建造====================");
-    [self.builder buildPerson];
+    [self.builder buildHead];
+    [self.builder buildBody];
+    [self.builder buildArmLeft];
+    [self.builder buildArmRight];
+    [self.builder buildLegLeft];
+    [self.builder buildLegRight];
 }
 
 @end

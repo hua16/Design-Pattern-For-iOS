@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 typedef  NS_ENUM(NSUInteger,HCDBuildOption){
-    HCDBuildOptionFat = 0,
-    HCDBuildOptionThin
+    HCDBuildOptionFat = 0,  //胖的人
+    HCDBuildOptionThin      //瘦的人
 };
+
 @protocol HCDPresionBuilderProtocol <NSObject>
 
 - (void)buildHead;
@@ -20,6 +21,5 @@ typedef  NS_ENUM(NSUInteger,HCDBuildOption){
 - (void)buildArmRight;
 - (void)buildLegLeft;
 - (void)buildLegRight;
-- (void)buildPerson;
 
 @end 

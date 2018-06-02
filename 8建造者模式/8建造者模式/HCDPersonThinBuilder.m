@@ -9,15 +9,7 @@
 #import "HCDPersonThinBuilder.h" 
 
 @implementation HCDPersonThinBuilder
-
--(void)buildPerson{
-    [self buildHead];
-    [self buildBody];
-    [self buildArmLeft];
-    [self buildArmRight];
-    [self buildLegLeft];
-    [self buildLegRight];
-}
+ 
 
 - (void)buildHead {
     NSLog(@"建造瘦子的头部");

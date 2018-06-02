@@ -9,11 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "HCDPresionBuilderProtocol.h"
 
+@class HCDPresionBuilder;
 @interface HCDPersonBuilderDirector : NSObject
 
+- (instancetype)initWithBuilder:(HCDPresionBuilder *)builder;
 
-@property(nonatomic, strong) id<HCDPresionBuilderProtocol>builder;
-
--(void)buildPerson;
+/**
+ 造人
+ */
+- (void)buildPerson;
 
 @end
