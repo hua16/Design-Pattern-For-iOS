@@ -9,9 +9,15 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "HCDState.h"
+
 @interface HCDWork : NSObject
-@property(nonatomic,strong)id<HCDState> state;
-@property(nonatomic,assign)CGFloat hour;
-@property(nonatomic,assign)BOOL finished;
--(void)writeProgram;
+
+@property(nonatomic,assign) CGFloat hour;
+
+@property(nonatomic,assign) BOOL finished;
+
+- (void)writeProgram;
+
+- (void)changeState:(HCDState *)state;
+
 @end

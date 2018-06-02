@@ -8,11 +8,6 @@
 
 #import "ViewController.h"
 #import "HCDWork.h"
-#import "HCDNoonState.h"
-#import "HCDAfternoonState.h"
-#import "HCDEventState.h"
-#import "HCDSleepState.h"
-#import "HCDRestState.h"
 
 @interface ViewController ()
 
@@ -24,12 +19,31 @@
     [super viewDidLoad];
     
     HCDWork *work = [[HCDWork alloc]init];
+    work.hour = 9;
     [work writeProgram];
-    work.state = [[HCDAfternoonState alloc]init];
+    
+    work.hour = 10;
     [work writeProgram];
-    work.state = [[HCDEventState alloc]init];
+    
+    work.hour = 12;
     [work writeProgram];
-    work.state = [[HCDSleepState alloc]init];
+    
+    work.hour = 13;
+    [work writeProgram];
+    
+    work.hour = 14;
+    [work writeProgram];
+    
+    work.hour = 17;
+    [work writeProgram];
+    
+    work.finished = NO;
+    [work writeProgram];
+    
+    work.hour = 19;
+    [work writeProgram];
+    
+    work.hour = 22;
     [work writeProgram];
 }
 

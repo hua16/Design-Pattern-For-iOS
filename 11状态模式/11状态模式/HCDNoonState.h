@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDState.h"
-@interface HCDNoonState : NSObject<HCDState>
+
+@interface HCDNoonState : HCDState 
 
 @end

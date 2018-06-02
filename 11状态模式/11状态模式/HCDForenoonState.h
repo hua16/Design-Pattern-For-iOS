@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDState.h"
-@interface HCDForenoonState : NSObject<HCDState>
+
+@interface HCDForenoonState : HCDState 
 
 @end

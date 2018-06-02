@@ -1,5 +1,5 @@
 //
-//  HCDState.h
+//  HCDProtocol.h
 //  11状态模式
 //
 //  Created by xulihua on 2018/6/2.
@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HCDProtocol.h"
 
-@interface HCDState : NSObject<HCDProtocol>
+@class HCDWork;
+@protocol HCDProtocol <NSObject>
+
+@optional
+- (void)writeProgram:(HCDWork *)work;
 
 @end
+

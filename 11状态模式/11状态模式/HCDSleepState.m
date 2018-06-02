@@ -8,7 +8,9 @@
 
 #import "HCDSleepState.h"
 #import "HCDWork.h"
+
 @implementation HCDSleepState
+
 - (void)writeProgram:(HCDWork *)work {
     NSLog(@"当前时间：{%.f}点，不行了，睡着了", work.hour);
 }

@@ -8,7 +8,9 @@
 
 #import "HCDRestState.h"
 #import "HCDWork.h"
+
 @implementation HCDRestState
+
 - (void)writeProgram:(HCDWork *)work {
     NSLog(@"当前时间：{%.f}点，下班回家了", work.hour);
 }

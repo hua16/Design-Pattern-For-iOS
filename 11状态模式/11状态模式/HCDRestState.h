@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDState.h"
-@interface HCDRestState : NSObject<HCDState>
+
+@interface HCDRestState : HCDState 
 
 @end

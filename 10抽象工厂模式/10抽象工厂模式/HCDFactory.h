@@ -10,6 +10,8 @@
 #import "HCDUser.h"
 #import "HCDDepartment.h"
 @protocol HCDFactory <NSObject>
+
 -(id<HCDUser>)createUser;
 -(id<HCDDepartment>)createDepartment;
+
 @end

@@ -9,12 +9,15 @@
 #import "HCDNoonState.h"
 #import "HCDAfternoonState.h"
 #import "HCDWork.h"
+
 @implementation HCDNoonState
+
 -(void)writeProgram:(HCDWork *)work{
     if (work.hour < 13) {
         NSLog(@"当前时间：{%.f}点，饿了，午饭；犯困，午休", work.hour);
     } else {
-        work.state = [[HCDAfternoonState alloc] init];
+        HCDAfternoonState *afternoonState = [[HCDAfternoonState alloc] init];
+        [work changeState:afternoonState];
         [work writeProgram];
     }
 }

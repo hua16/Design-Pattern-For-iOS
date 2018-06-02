@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6EFA90A20C2C80C0067EF42 /* HCDState.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFA90920C2C80C0067EF42 /* HCDState.m */; };
 		DD3660BA1B7DAA1B00549DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3660B91B7DAA1B00549DFD /* main.m */; };
 		DD3660BD1B7DAA1B00549DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3660BC1B7DAA1B00549DFD /* AppDelegate.m */; };
 		DD3660C01B7DAA1B00549DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3660BF1B7DAA1B00549DFD /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6EFA90720C2C7DC0067EF42 /* HCDProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDProtocol.h; sourceTree = "<group>"; };
+		C6EFA90820C2C80C0067EF42 /* HCDState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDState.h; sourceTree = "<group>"; };
+		C6EFA90920C2C80C0067EF42 /* HCDState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDState.m; sourceTree = "<group>"; };
 		DD3660B41B7DAA1B00549DFD /* 11状态模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11状态模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3660B81B7DAA1B00549DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD3660B91B7DAA1B00549DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,7 +53,6 @@
 		DD3660D21B7DAA1B00549DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD3660D31B7DAA1B00549DFD /* _1____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1____Tests.m"; sourceTree = "<group>"; };
 		DD3660DD1B7DBAB300549DFD /* 状态模式结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "状态模式结构图.png"; sourceTree = "<group>"; };
-		DD3660E01B7DBDCC00549DFD /* HCDState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDState.h; sourceTree = "<group>"; };
 		DD3660E11B7DBDE500549DFD /* HCDWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDWork.h; sourceTree = "<group>"; };
 		DD3660E21B7DBDE500549DFD /* HCDWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDWork.m; sourceTree = "<group>"; };
 		DD3660E41B7DBF3E00549DFD /* HCDForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForenoonState.h; sourceTree = "<group>"; };
@@ -148,7 +151,9 @@
 		DD3660DF1B7DBDA000549DFD /* 状态模式 */ = {
 			isa = PBXGroup;
 			children = (
-				DD3660E01B7DBDCC00549DFD /* HCDState.h */,
+				C6EFA90720C2C7DC0067EF42 /* HCDProtocol.h */,
+				C6EFA90820C2C80C0067EF42 /* HCDState.h */,
+				C6EFA90920C2C80C0067EF42 /* HCDState.m */,
 				DD3660E11B7DBDE500549DFD /* HCDWork.h */,
 				DD3660E21B7DBDE500549DFD /* HCDWork.m */,
 				DD3660E41B7DBF3E00549DFD /* HCDForenoonState.h */,
@@ -271,6 +276,7 @@
 				DD3660C01B7DAA1B00549DFD /* ViewController.m in Sources */,
 				DD3660BD1B7DAA1B00549DFD /* AppDelegate.m in Sources */,
 				DD3660E61B7DBF3E00549DFD /* HCDForenoonState.m in Sources */,
+				C6EFA90A20C2C80C0067EF42 /* HCDState.m in Sources */,
 				DD3660F21B7DC86200549DFD /* HCDSleepState.m in Sources */,
 				DD3660E91B7DC12000549DFD /* HCDNoonState.m in Sources */,
 				DD3660F51B7DC87700549DFD /* HCDRestState.m in Sources */,
@@ -472,6 +478,7 @@
 				DD3660D91B7DAA1B00549DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD3660DA1B7DAA1B00549DFD /* Build configuration list for PBXNativeTarget "11状态模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				DD3660DC1B7DAA1B00549DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
