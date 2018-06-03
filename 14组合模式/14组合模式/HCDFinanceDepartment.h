@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDCompany.h"
-@interface HCDFinanceDepartment : NSObject<HCDCompany>
-@property(nonatomic,copy)NSString *name;
--(instancetype)initWithName:(NSString *)name;
+
+@interface HCDFinanceDepartment : HCDCompany
+
 @end

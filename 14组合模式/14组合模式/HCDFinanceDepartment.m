@@ -9,22 +9,23 @@
 #import "HCDFinanceDepartment.h"
 
 @implementation HCDFinanceDepartment
--(instancetype)initWithName:(NSString *)name{
-    self = [super init];
-    if (self) {
-        _name = name;
+
+-(void)add:(HCDCompany *)company{
+    
+}
+
+-(void)remove:(HCDCompany *)company{
+    
+}
+
+- (void)display:(NSInteger)depth {
+    NSString *seperate = @"";
+    for (NSInteger i = 0; i < depth; i++) {
+        seperate = [seperate stringByAppendingString:@"-"];
     }
-    return self;
+    NSLog(@"%@%@的财务部门",seperate,self.name);
 }
--(void)add:(id<HCDCompany>)company{
-    
-}
--(void)display{
-    NSLog(@"%@,的财务部门",self.name);
-}
--(void)remove:(id<HCDCompany>)company{
-    
-}
+
 -(void)lineofDuty{
     NSLog(@"%@,给员工发钱",self.name);
 }

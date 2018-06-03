@@ -23,7 +23,7 @@
     HCDPlayer *forward = [[HCDForwards alloc]initWithName:@"maidi"];
     [forward attack];
     [forward defense];
-    HCDPlayer *foreignCenter = [[HCDTranslator alloc]initWithName:@"姚明"];
+    HCDTranslator *foreignCenter = [[HCDTranslator alloc]initWithName:@"姚明"];
     [foreignCenter attack];
     [foreignCenter defense];
     

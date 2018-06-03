@@ -2,16 +2,24 @@
 //  HCDCompany.h
 //  14组合模式
 //
-//  Created by 黄成都 on 15/8/15.
-//  Copyright (c) 2015年 黄成都. All rights reserved.
+//  Created by xulihua on 2018/6/3.
+//  Copyright © 2018年 黄成都. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@protocol HCDCompany <NSObject>
+@interface HCDCompany : NSObject
 
--(void)add:(id<HCDCompany>)company;
--(void)remove:(id<HCDCompany>)company;
--(void)display;
+@property (nonatomic,copy) NSString *name;
+
+- (instancetype)initWithName:(NSString *)name;
+
+-(void)add:(HCDCompany *)company;
+
+-(void)remove:(HCDCompany *)company;
+
+-(void)display:(NSInteger)depth;
+
 -(void)lineofDuty;
+
 @end

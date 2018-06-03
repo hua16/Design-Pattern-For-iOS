@@ -32,9 +32,11 @@
     HCDConcreteCompany *comp1 = [[HCDConcreteCompany alloc]initWithName:@"杭州办事处"];
     [comp1 add:[[HCDHRDepartment alloc]initWithName:@"杭州办事处人力资源部"]];
     [comp1 add:[[HCDFinanceDepartment alloc]initWithName:@"杭州办事处财务部"]];
-    [root add:comp1];
-    NSLog(@"结构图:----------------------------");
-    [root display];
+    NSLog(@"\n");
+    [comp add:comp1];
+    NSLog(@"结构图:--------------------------");
+    [root display:1];
+    NSLog(@"\n");
     NSLog(@"职责:---------------------------");
     [root lineofDuty];
 }

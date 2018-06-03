@@ -9,23 +9,25 @@
 #import "HCDHRDepartment.h"
 
 @implementation HCDHRDepartment
--(instancetype)initWithName:(NSString *)name{
-    self = [super init];
-    if (self) {
-        _name = name;
-    }
-    return self;
-}
--(void)add:(id<HCDCompany>)company{
+
+-(void)add:(HCDCompany *)company{
     
 }
--(void)display{
-    NSLog(@"%@的HR部门",self.name);
+
+- (void)display:(NSInteger)depth {
+    NSString *seperate = @"";
+    for (NSInteger i = 0; i < depth; i++) {
+        seperate = [seperate stringByAppendingString:@"-"];
+    }
+    NSLog(@"%@%@的HR部门",seperate,self.name);
 }
--(void)remove:(id<HCDCompany>)company{
+
+-(void)remove:(HCDCompany *)company{
 
 }
+
 -(void)lineofDuty{
     NSLog(@"%@,培训员工",self.name);
 }
+
 @end

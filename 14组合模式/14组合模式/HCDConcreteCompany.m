@@ -9,35 +9,45 @@
 #import "HCDConcreteCompany.h"
 
 @interface HCDConcreteCompany ()
-@property(nonatomic,strong)NSMutableArray *childList;
+
+@property (nonatomic, strong) NSMutableArray *childList;
+
 @end
 
 @implementation HCDConcreteCompany
--(instancetype)initWithName:(NSString *)name{
-    self = [super init];
-    if (self) {
-        _name = name;
+
+- (instancetype)initWithName:(NSString *)name{
+    self = [super initWithName:name];
+    if (self) { 
         _childList = [NSMutableArray array];
     }
     return self;
 }
 
--(void)add:(id<HCDCompany>)company{
+- (void)add:(HCDCompany *)company{
     [self.childList addObject:company];
 }
--(void)remove:(id<HCDCompany>)company{
+
+- (void)remove:(HCDCompany *)company{
     [self.childList removeObject:company];
 }
--(void)display{
-    NSLog(@"%@的子公司",self.name);
-    for (id<HCDCompany> company in self.childList) {
-        [company display];
+
+- (void)display:(NSInteger)depth {
+    NSString *seperate = @"";
+    for (NSInteger i = 0; i < depth; i++) {
+        seperate = [seperate stringByAppendingString:@"-"];
+    }
+    NSLog(@"%@%@的子公司",seperate,self.name);
+    for (HCDCompany * company in self.childList) {
+        [company display:depth + 2];
     }
 }
--(void)lineofDuty{
+
+- (void)lineofDuty{
     NSLog(@"%@的子公司的职责",self.name);
-    for (id<HCDCompany> company in self.childList) {
+    for (HCDCompany * company in self.childList) {
         [company lineofDuty];
     }
 }
+
 @end
