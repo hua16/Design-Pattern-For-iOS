@@ -10,11 +10,15 @@
 #import "HCDReuquest.h"
 
 @implementation HCDCommonManager
--(void)dealRequest:(HCDReuquest *)request{
-    if ([request.requestType isEqualToString:@"请假"] && request.number < 10) {
-        NSLog(@"%@处理了%@,时间是%d",self.name,request.requestType,request.number);
+
+- (void)dealRequest:(HCDReuquest *)request{
+    if ([request.requestType isEqualToString:@"请假"] && request.number <= 2) {
+        NSLog(@"%@:%@ 数量%ld 被批准",self.name,request.requestType,request.number);
     }else{
-        [self.superior dealRequest:request];
+        if (self.superior) {
+            [self.superior dealRequest:request]; 
+        }
     }
 }
+
 @end

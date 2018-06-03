@@ -9,6 +9,20 @@
 #import <Foundation/Foundation.h>
 
 @interface HCDReuquest : NSObject
-@property(nonatomic,copy)NSString *requestType;
-@property(nonatomic,assign)NSInteger number;
+
+/**
+ 请求类型
+ */
+@property (nonatomic, copy) NSString *requestType;
+
+/**
+ 请求内容
+ */
+@property (nonatomic, copy) NSString *requestContent;
+
+/**
+ 请求的数量
+ */
+@property(nonatomic, assign) NSInteger number;
+
 @end

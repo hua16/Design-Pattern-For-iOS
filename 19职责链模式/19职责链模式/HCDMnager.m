@@ -8,15 +8,19 @@
 
 #import "HCDMnager.h"
 #import "HCDReuquest.h"
+
 @implementation HCDMnager
--(instancetype)initWithName:(NSString *)name{
+
+- (instancetype)initWithName:(NSString *)name{
     self = [super init];
     if (self) {
         _name = name;
     }
     return self;
 }
--(void)dealRequest:(HCDReuquest *)request{
+
+- (void)dealRequest:(HCDReuquest *)request{
     
 }
+
 @end

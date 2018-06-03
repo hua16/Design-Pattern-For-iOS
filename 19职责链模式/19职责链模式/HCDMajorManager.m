@@ -8,12 +8,16 @@
 
 #import "HCDMajorManager.h"
 #import "HCDReuquest.h"
+
 @implementation HCDMajorManager
+
 -(void)dealRequest:(HCDReuquest *)request{
-    if ([request.requestType isEqualToString:@"请假"] && request.number < 50) {
-        NSLog(@"%@处理了%@,时间是%d",self.name,request.requestType,request.number);
+    if ([request.requestType isEqualToString:@"请假"] && request.number <= 5) {
+        NSLog(@"%@:%@ 数量%ld 被批准",self.name,request.requestType,request.number);
     }else{
-        [self.superior dealRequest:request];
+        if (self.superior) {
+            [self.superior dealRequest:request];
+        }
     }
 }
 @end
