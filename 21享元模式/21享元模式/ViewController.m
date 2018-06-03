@@ -27,10 +27,12 @@ typedef id<HCDWebSite> HCDWebSiteType;
     HCDUser *user = [[HCDUser alloc]init];
     user.name = @"小菜";
     [fx use:user];
+    
     HCDWebSiteType fy = [facoty getWebSiteCategory:@"产品展示"];
     HCDUser *user1 = [[HCDUser alloc]init];
     user1.name = @"大鸟";
     [fy use:user1];
+    
     HCDWebSiteType fz = [facoty getWebSiteCategory:@"博客"];
     HCDUser *user2 = [[HCDUser alloc]init];
     user2.name = @"咪咪";

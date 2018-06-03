@@ -6,10 +6,7 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "HCDContext.h"
-#import "HCDTerminalExpression.h"
-#import "HCDNonterminalExpression.h"
+#import "ViewController.h" 
 @interface ViewController ()
 
 @end
@@ -18,27 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    HCDContext *context = [[HCDContext alloc]initWithInput:@"12345"];
-    NSMutableArray *list = [[NSMutableArray alloc]init];
-    
-    [list addObject:[[HCDTerminalExpression alloc]init]];
-    
-    [list addObject:[[HCDNonterminalExpression alloc]init]];
-    
-    [list addObject:[[HCDTerminalExpression alloc]init]];
-    
-    [list addObject:[[HCDTerminalExpression alloc]init]];
-    
-    for(HCDAbstractExpression *exp in list) {
-        [exp interpret:context];
-    }
-    
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -14,10 +14,10 @@
 		4DC841B01B8F2FBC00DD1E28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC841AF1B8F2FBC00DD1E28 /* Images.xcassets */; };
 		4DC841B31B8F2FBC00DD1E28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC841B11B8F2FBC00DD1E28 /* LaunchScreen.xib */; };
 		4DC841BF1B8F2FBC00DD1E28 /* _2_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC841BE1B8F2FBC00DD1E28 /* _2_____Tests.m */; };
-		4DC841CB1B8F302000DD1E28 /* HCDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC841CA1B8F302000DD1E28 /* HCDContext.m */; };
-		4DC841CE1B8F307D00DD1E28 /* HCDAbstractExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC841CD1B8F307D00DD1E28 /* HCDAbstractExpression.m */; };
-		4DC841D11B8F30CC00DD1E28 /* HCDTerminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC841D01B8F30CC00DD1E28 /* HCDTerminalExpression.m */; };
-		4DC841D41B8F310500DD1E28 /* HCDNonterminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC841D31B8F310500DD1E28 /* HCDNonterminalExpression.m */; };
+		C6D7945020C3A8170038F292 /* LTPlayContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7944F20C3A8170038F292 /* LTPlayContext.m */; };
+		C6D7945320C3A8A50038F292 /* LTExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7945220C3A8A50038F292 /* LTExpression.m */; };
+		C6D7945620C3BF660038F292 /* LTNote.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7945520C3BF660038F292 /* LTNote.m */; };
+		C6D7945920C3BF7B0038F292 /* LTScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7945820C3BF7B0038F292 /* LTScale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		4DC841B81B8F2FBC00DD1E28 /* 22解释器模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "22解释器模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC841BD1B8F2FBC00DD1E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC841BE1B8F2FBC00DD1E28 /* _2_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_____Tests.m"; sourceTree = "<group>"; };
-		4DC841C91B8F302000DD1E28 /* HCDContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDContext.h; sourceTree = "<group>"; };
-		4DC841CA1B8F302000DD1E28 /* HCDContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDContext.m; sourceTree = "<group>"; };
-		4DC841CC1B8F307D00DD1E28 /* HCDAbstractExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDAbstractExpression.h; sourceTree = "<group>"; };
-		4DC841CD1B8F307D00DD1E28 /* HCDAbstractExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDAbstractExpression.m; sourceTree = "<group>"; };
-		4DC841CF1B8F30CC00DD1E28 /* HCDTerminalExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDTerminalExpression.h; sourceTree = "<group>"; };
-		4DC841D01B8F30CC00DD1E28 /* HCDTerminalExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDTerminalExpression.m; sourceTree = "<group>"; };
-		4DC841D21B8F310500DD1E28 /* HCDNonterminalExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNonterminalExpression.h; sourceTree = "<group>"; };
-		4DC841D31B8F310500DD1E28 /* HCDNonterminalExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNonterminalExpression.m; sourceTree = "<group>"; };
+		C6D7944E20C3A8170038F292 /* LTPlayContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPlayContext.h; sourceTree = "<group>"; };
+		C6D7944F20C3A8170038F292 /* LTPlayContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPlayContext.m; sourceTree = "<group>"; };
+		C6D7945120C3A8A50038F292 /* LTExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTExpression.h; sourceTree = "<group>"; };
+		C6D7945220C3A8A50038F292 /* LTExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTExpression.m; sourceTree = "<group>"; };
+		C6D7945420C3BF660038F292 /* LTNote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTNote.h; sourceTree = "<group>"; };
+		C6D7945520C3BF660038F292 /* LTNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTNote.m; sourceTree = "<group>"; };
+		C6D7945720C3BF7B0038F292 /* LTScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTScale.h; sourceTree = "<group>"; };
+		C6D7945820C3BF7B0038F292 /* LTScale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTScale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,14 +135,14 @@
 		4DC841C81B8F2FEA00DD1E28 /* 解释器模式 */ = {
 			isa = PBXGroup;
 			children = (
-				4DC841C91B8F302000DD1E28 /* HCDContext.h */,
-				4DC841CA1B8F302000DD1E28 /* HCDContext.m */,
-				4DC841CC1B8F307D00DD1E28 /* HCDAbstractExpression.h */,
-				4DC841CD1B8F307D00DD1E28 /* HCDAbstractExpression.m */,
-				4DC841CF1B8F30CC00DD1E28 /* HCDTerminalExpression.h */,
-				4DC841D01B8F30CC00DD1E28 /* HCDTerminalExpression.m */,
-				4DC841D21B8F310500DD1E28 /* HCDNonterminalExpression.h */,
-				4DC841D31B8F310500DD1E28 /* HCDNonterminalExpression.m */,
+				C6D7944E20C3A8170038F292 /* LTPlayContext.h */,
+				C6D7944F20C3A8170038F292 /* LTPlayContext.m */,
+				C6D7945120C3A8A50038F292 /* LTExpression.h */,
+				C6D7945220C3A8A50038F292 /* LTExpression.m */,
+				C6D7945420C3BF660038F292 /* LTNote.h */,
+				C6D7945520C3BF660038F292 /* LTNote.m */,
+				C6D7945720C3BF7B0038F292 /* LTScale.h */,
+				C6D7945820C3BF7B0038F292 /* LTScale.m */,
 			);
 			name = "解释器模式";
 			sourceTree = "<group>";
@@ -247,13 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC841CE1B8F307D00DD1E28 /* HCDAbstractExpression.m in Sources */,
 				4DC841AB1B8F2FBC00DD1E28 /* ViewController.m in Sources */,
+				C6D7945320C3A8A50038F292 /* LTExpression.m in Sources */,
+				C6D7945020C3A8170038F292 /* LTPlayContext.m in Sources */,
 				4DC841A81B8F2FBC00DD1E28 /* AppDelegate.m in Sources */,
-				4DC841D41B8F310500DD1E28 /* HCDNonterminalExpression.m in Sources */,
-				4DC841D11B8F30CC00DD1E28 /* HCDTerminalExpression.m in Sources */,
+				C6D7945920C3BF7B0038F292 /* LTScale.m in Sources */,
 				4DC841A51B8F2FBC00DD1E28 /* main.m in Sources */,
-				4DC841CB1B8F302000DD1E28 /* HCDContext.m in Sources */,
+				C6D7945620C3BF660038F292 /* LTNote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +448,7 @@
 				4DC841C41B8F2FBC00DD1E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC841C51B8F2FBC00DD1E28 /* Build configuration list for PBXNativeTarget "22解释器模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				4DC841C71B8F2FBC00DD1E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
