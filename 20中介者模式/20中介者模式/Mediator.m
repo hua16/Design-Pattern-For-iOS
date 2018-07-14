@@ -10,4 +10,8 @@
 
 @implementation Mediator
 
+-(void)send:(NSString *)message colleague:(Colleague *)colleague {
+    
+}
+
 @end

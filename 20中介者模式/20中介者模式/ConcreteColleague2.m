@@ -10,22 +10,22 @@
 #import "Mediator.h"
 
 @implementation ConcreteColleague2
-@synthesize mediator = _mediator;
 
 -(instancetype)initWithMediator:(Mediator *)mediator{
     self = [super init];
     if (self) {
-        _mediator = mediator;
+        self.mediator = mediator;
     }
     return self;
 }
 
 -(void)send:(NSString *)message{
     NSLog(@"同事2发送了信息");
-    [_mediator send:message colleague:self];
+    [self.mediator send:message colleague:self];
 }
 
 -(void)notify:(NSString *)message{
     NSLog(@"%@%@",@"同事2得到消息", message);
 }
+
 @end

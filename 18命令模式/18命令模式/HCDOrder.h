@@ -17,4 +17,5 @@
 -(instancetype)initWithOrderString:(NSString *)orderString;
 //执行命令
 -(void)executeOrder;
+
 @end

@@ -6,12 +6,8 @@
 //  Copyright © 2017年 黄成都. All rights reserved.
 //
 
-#import "Mediator.h"
-
-@class Colleague;
+#import "Mediator.h" 
 
 @interface ConcreteMediator : Mediator
-
-
 
 @end

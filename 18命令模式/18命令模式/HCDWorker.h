@@ -13,6 +13,9 @@
 +(instancetype)sharedWorker;
 
 -(void)doMuttonWork:(NSString *)work;
+
 -(void)doChickenWork:(NSString *)work;
+
 -(void)doDuckWork:(NSString *)work;
+
 @end

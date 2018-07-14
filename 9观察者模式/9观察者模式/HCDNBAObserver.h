@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDObserver.h"
+
 @interface HCDNBAObserver : NSObject<HCDObserver>
 
 @end

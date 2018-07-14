@@ -11,10 +11,12 @@
 @class Mediator;
 @interface Colleague : NSObject
 
-@property(nonatomic, strong)Mediator *mediator;
+@property(nonatomic, strong) Mediator *mediator;
 
 -(instancetype)initWithMediator:(Mediator *)mediator;
 
 -(void)notify:(NSString *)message;
+
 -(void)send:(NSString *)message;
+
 @end

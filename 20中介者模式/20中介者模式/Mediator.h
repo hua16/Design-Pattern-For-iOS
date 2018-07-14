@@ -9,13 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @class Colleague;
-
 @interface Mediator : NSObject
 
-@property(nonatomic, strong)Colleague *colleague1;
-@property(nonatomic, strong)Colleague *colleague2;
+@property (nonatomic, strong) Colleague *colleague1;
+@property (nonatomic, strong) Colleague *colleague2;
 
 -(void)send:(NSString *)message colleague:(Colleague *)colleague;
-
 
 @end
