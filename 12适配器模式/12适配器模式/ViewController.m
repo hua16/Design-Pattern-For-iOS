@@ -20,12 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HCDPlayer *forward = [[HCDForwards alloc]initWithName:@"maidi"];
+    HCDPlayer *forward = [[HCDForwards alloc] initWithName:@"maidi"];
     [forward attack];
     [forward defense];
-    HCDTranslator *foreignCenter = [[HCDTranslator alloc]initWithName:@"姚明"];
-    [foreignCenter attack];
-    [foreignCenter defense];
+    
+    HCDForeignCenter *foreignCenter = [[HCDForeignCenter alloc] initWithName:@"姚明"];
+    HCDPlayer *translator = [[HCDTranslator alloc] initWithForeigncenter:foreignCenter];
+    [translator attack];
+    [translator defense];
     
 }
 

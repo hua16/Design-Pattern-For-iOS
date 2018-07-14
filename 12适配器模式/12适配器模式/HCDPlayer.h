@@ -9,8 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface HCDPlayer : NSObject
-@property(nonatomic,copy)NSString *name;
+
+@property (nonatomic,copy) NSString *name;
+
 -(void)attack;
+
 -(void)defense;
+
 -(instancetype)initWithName:(NSString *)name;
+
 @end

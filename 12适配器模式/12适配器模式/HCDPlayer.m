@@ -9,6 +9,7 @@
 #import "HCDPlayer.h"
 
 @implementation HCDPlayer
+
 -(instancetype)initWithName:(NSString *)name{
     self = [super init];
     if (self) {
@@ -16,4 +17,13 @@
     }
     return self;
 }
+
+-(void)attack {
+    
+}
+
+-(void)defense {
+    
+}
+
 @end

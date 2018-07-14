@@ -9,8 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface HCDForeignCenter : NSObject
-@property(nonatomic,copy)NSString *name;
--(void)foreignAttact;
--(void)foreignDefent;
--(instancetype)initWithName:(NSString *)name;
+
+@property(nonatomic,copy) NSString *name;
+
+- (void)foreignAttact;
+
+- (void)foreignDefent;
+
+- (instancetype)initWithName:(NSString *)name;
+
 @end

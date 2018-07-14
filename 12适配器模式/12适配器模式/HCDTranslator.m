@@ -11,20 +11,26 @@
 
 @interface HCDTranslator ()
 
+@property(nonatomic, strong) HCDForeignCenter *foreigncenter;
+
 @end
+
 @implementation HCDTranslator
--(instancetype)initWithName:(NSString *)name{
+
+-(instancetype)initWithForeigncenter:(HCDForeignCenter *)foreigncenter {
     self = [super init];
     if (self) {
-        _foreigncenter = [[HCDForeignCenter alloc]initWithName:name];
+        _foreigncenter = foreigncenter;
     }
     return self;
-}
+} 
 
 -(void)defense{
     [self.foreigncenter foreignDefent];
 }
+
 -(void)attack{
     [self.foreigncenter foreignAttact];
 }
+
 @end

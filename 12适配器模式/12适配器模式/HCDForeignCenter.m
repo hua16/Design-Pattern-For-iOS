@@ -9,7 +9,8 @@
 #import "HCDForeignCenter.h"
 
 @implementation HCDForeignCenter
--(instancetype)initWithName:(NSString *)name{
+
+- (instancetype)initWithName:(NSString *)name{
     self = [super init];
     if (self) {
         _name = name;
@@ -17,10 +18,12 @@
     return self;
 }
 
--(void)foreignAttact{
+- (void)foreignAttact{
     NSLog(@"外籍中锋%@进攻",self.name);
 }
--(void)foreignDefent{
+
+- (void)foreignDefent{
     NSLog(@"外籍中锋%@防守",self.name);
 }
+
 @end

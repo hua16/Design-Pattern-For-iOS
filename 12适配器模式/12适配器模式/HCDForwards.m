@@ -9,10 +9,13 @@
 #import "HCDForwards.h"
 
 @implementation HCDForwards
+
 -(void)attack{
     NSLog(@"前锋%@进攻",self.name);
 }
+
 -(void)defense{
     NSLog(@"前锋%@防守",self.name);
 }
+
 @end

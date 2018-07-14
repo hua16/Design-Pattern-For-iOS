@@ -7,7 +7,11 @@
 //
 
 #import "HCDPlayer.h"
+
 @class HCDForeignCenter;
+
 @interface HCDTranslator : HCDPlayer
-@property(nonatomic,strong)HCDForeignCenter *foreigncenter;
+
+-(instancetype)initWithForeigncenter:(HCDForeignCenter *)foreigncenter;
+
 @end
