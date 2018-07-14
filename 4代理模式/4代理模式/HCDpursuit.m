@@ -8,8 +8,11 @@
 
 #import "HCDpursuit.h"
 #import "HCDschoolGirl.h"
+
 @interface HCDpursuit ()
+
 @property(nonatomic,strong)HCDschoolGirl *schoolGirl;
+
 @end
 
 @implementation HCDpursuit

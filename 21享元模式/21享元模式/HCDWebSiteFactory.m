@@ -8,6 +8,7 @@
 
 #import "HCDWebSiteFactory.h"
 #import "HCDConcreteWebSite.h"
+
 @implementation HCDWebSiteFactory
 
 -(instancetype)init{
@@ -41,4 +42,5 @@
 -(NSInteger)getWebSiteCount{
     return self.flyweights.count;
 }
+
 @end

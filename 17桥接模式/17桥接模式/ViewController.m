@@ -23,11 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.phone = [[HCDNokiaPhone alloc]init];
-    
-    
-    
 }
-
 
 - (IBAction)play:(id)sender {
     

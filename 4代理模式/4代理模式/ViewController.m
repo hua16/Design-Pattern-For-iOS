@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HCDschoolGirl *girl = [[HCDschoolGirl alloc]init];
+    HCDschoolGirl *girl = [[HCDschoolGirl alloc] init];
     girl.name = @"哈哈哈哈哈";
     HCDproxy *proxy = [[HCDproxy alloc] initWithSchoolGirl:girl];
     [proxy giveFlowers];

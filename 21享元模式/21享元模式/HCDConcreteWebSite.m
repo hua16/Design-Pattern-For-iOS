@@ -9,7 +9,9 @@
 #import "HCDConcreteWebSite.h"
 
 @implementation HCDConcreteWebSite
+
 -(void)use:(HCDUser *)user{
     NSLog(@"网站分类:%@,用户:%@",self.webName,user.name);
 }
+
 @end

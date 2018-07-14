@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDUser.h"
+
 @protocol HCDWebSite <NSObject>
+
 -(void)use:(HCDUser *)user;
+
 @end

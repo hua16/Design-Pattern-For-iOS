@@ -13,9 +13,9 @@
 
 @interface HCDFound()
 
-@property(nonatomic,strong)HCDstock1 *stock1;
-@property(nonatomic,strong)HCDstock2 *stock2;
-@property(nonatomic,strong)HCDstock3 *stock3;
+@property (nonatomic, strong) HCDstock1 *stock1;
+@property (nonatomic, strong) HCDstock2 *stock2;
+@property (nonatomic, strong) HCDstock3 *stock3;
 
 @end
 

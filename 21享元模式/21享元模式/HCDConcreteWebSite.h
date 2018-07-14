@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDWebSite.h"
+
 @interface HCDConcreteWebSite : NSObject<HCDWebSite>
+
 @property(nonatomic,strong)NSString *webName;
+
 @end

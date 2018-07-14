@@ -11,8 +11,11 @@
 
 
 @interface HCDWebSiteFactory : NSObject
-@property(nonatomic,strong)NSDictionary *flyweights;
+
+@property(nonatomic,strong) NSDictionary *flyweights;
 
 -(id<HCDWebSite> )getWebSiteCategory:(NSString *)webkey;
+
 -(NSInteger)getWebSiteCount;
+
 @end
