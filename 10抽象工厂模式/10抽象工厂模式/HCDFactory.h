@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "HCDUser.h"
 #import "HCDDepartment.h"
+
 @protocol HCDFactory <NSObject>
 
 -(id<HCDUser>)createUser;

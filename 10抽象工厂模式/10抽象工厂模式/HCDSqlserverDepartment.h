@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDDepartment.h"
+
 @interface HCDSqlserverDepartment : NSObject<HCDDepartment>
 
 @end

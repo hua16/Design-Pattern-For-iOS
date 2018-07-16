@@ -28,13 +28,13 @@
 }
 
 - (void)buildPerson {
-    NSLog(@"===============director指挥builder开始建造====================");
     [self.builder buildHead];
     [self.builder buildBody];
     [self.builder buildArmLeft];
     [self.builder buildArmRight];
     [self.builder buildLegLeft];
     [self.builder buildLegRight];
+    [self.builder getResult];
 }
 
 @end

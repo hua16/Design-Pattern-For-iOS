@@ -8,7 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "SQLUser.h"
+
 @protocol HCDUser <NSObject>
+
 -(void)insertUser:(SQLUser *)user;
+
 -(SQLUser *)getUser;
+
 @end

@@ -9,11 +9,14 @@
 #import "HCDAccessDepartment.h"
 
 @implementation HCDAccessDepartment
+
 -(SQLDepartment *)getDepartment{
     NSLog(@"新建一个Access的SQLDepartment对象");
     return [[SQLDepartment alloc]init];
 }
+
 -(void)insertDepartment:(SQLDepartment *)department{
     NSLog(@"插入一个Access的SQLDepartment对象");
 }
+
 @end

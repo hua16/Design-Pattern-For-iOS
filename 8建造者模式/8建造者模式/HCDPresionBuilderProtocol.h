@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HCDProduct.h"
 
 typedef  NS_ENUM(NSUInteger,HCDBuildOption){
     HCDBuildOptionFat = 0,  //胖的人
@@ -21,5 +22,7 @@ typedef  NS_ENUM(NSUInteger,HCDBuildOption){
 - (void)buildArmRight;
 - (void)buildLegLeft;
 - (void)buildLegRight;
+
+- (HCDProduct *)getResult;
 
 @end 

@@ -9,11 +9,14 @@
 #import "HCDSqlserverDepartment.h"
 
 @implementation HCDSqlserverDepartment
+
 -(SQLDepartment *)getDepartment{
     NSLog(@"新建一个Sqlserver的SQLDepartment对象");
     return [[SQLDepartment alloc]init];
 }
+
 -(void)insertDepartment:(SQLDepartment *)department{
     NSLog(@"插入一个Sqlserver的SQLDepartment对象");
 }
+
 @end

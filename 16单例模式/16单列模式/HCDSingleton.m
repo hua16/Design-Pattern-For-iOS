@@ -9,6 +9,7 @@
 #import "HCDSingleton.h"
 
 @implementation HCDSingleton
+
 +(instancetype)sharedInstance{
     static HCDSingleton *singleton = nil;
     static dispatch_once_t onceToken;
@@ -17,4 +18,5 @@
     });
     return singleton;
 }
+
 @end

@@ -10,26 +10,9 @@
 
 @interface HCDPresionBuilder()
 
-@property (nonatomic, strong) HCDHeader *header;
-@property (nonatomic, strong) HCDBody *body;
-@property (nonatomic, strong) HCDLeg *leg;
-@property (nonatomic, strong) HCDArm *arm;
-
 @end
 
 @implementation HCDPresionBuilder
-
-- (instancetype)init {
-    self = [super init];
-    if (self) { 
-        _header = [[HCDHeader alloc]init];
-        _body = [[HCDBody alloc]init];
-        _leg = [[HCDLeg alloc]init];
-        _arm = [[HCDArm alloc]init];
-    }
-    return self;
-}
-
 
 - (void)buildHead {
     
@@ -59,5 +42,8 @@
     
 }
 
+- (HCDProduct *)getResult {
+    return nil;
+}
 
 @end

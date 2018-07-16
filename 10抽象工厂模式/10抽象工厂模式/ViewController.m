@@ -15,9 +15,10 @@
 
 #import "SQLDepartment.h"
 #import "SQLUser.h"
-typedef id<HCDFactory> HCDFactory;
-typedef id<HCDDepartment> HCDDepartment;
+
 typedef id<HCDUser> HCDUser;
+
+
 @interface ViewController ()
 
 @end
@@ -27,15 +28,23 @@ typedef id<HCDUser> HCDUser;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HCDFactory factory = [[HCDSqlserverFactory alloc]init];
-    HCDDepartment department = [factory createDepartment];
-    [department insertDepartment:[[SQLDepartment alloc]init]];
-    [department getDepartment];
+    id<HCDFactory> factory0 = [[HCDSqlserverFactory alloc]init];
+    id<HCDDepartment> department0 = [factory0 createDepartment];
+    [department0 insertDepartment:[[SQLDepartment alloc]init]];
+    [department0 getDepartment];
     
-    HCDFactory factory1 = [[HCDAccessFactory alloc]init];
-    HCDDepartment department1 = [factory1 createDepartment];
+    id<HCDUser> user0 = [factory0 createUser];
+    [user0 insertUser:[[SQLUser alloc] init]];
+    [user0 getUser];
+    
+    id<HCDFactory> factory1 = [[HCDAccessFactory alloc]init];
+    id<HCDDepartment> department1 = [factory1 createDepartment];
     [department1 insertDepartment:[[SQLDepartment alloc]init]];
     [department1 getDepartment];
+    
+    id<HCDUser> user1 = [factory1 createUser];
+    [user1 insertUser:[[SQLUser alloc] init]];
+    [user1 getUser];
     
     
 }

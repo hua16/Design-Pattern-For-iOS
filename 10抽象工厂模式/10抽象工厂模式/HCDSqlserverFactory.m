@@ -9,10 +9,13 @@
 #import "HCDSqlserverFactory.h"
 #import "HCDSqlserverUser.h"
 #import "HCDSqlserverDepartment.h"
+
 @implementation HCDSqlserverFactory
+
 -(id<HCDUser>)createUser{
     return [[HCDSqlserverUser alloc]init];
 }
+
 -(id<HCDDepartment>)createDepartment{
     return [[HCDSqlserverDepartment alloc]init];
 }

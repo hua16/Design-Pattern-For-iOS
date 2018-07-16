@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "HCDUser.h"
 #import "SQLUser.h"
+
 @interface HCDAccessUser : NSObject<HCDUser>
 
 @end

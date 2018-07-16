@@ -9,11 +9,15 @@
 #import "HCDAccessFactory.h"
 #import "HCDAccessDepartment.h"
 #import "HCDAccessUser.h"
+
 @implementation HCDAccessFactory
+
 -(id<HCDUser>)createUser{
     return [[HCDAccessUser alloc]init];
 }
+
 -(id<HCDDepartment>)createDepartment{
     return [[HCDAccessDepartment alloc]init];
 }
+
 @end

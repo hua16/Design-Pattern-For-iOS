@@ -14,9 +14,6 @@
 
 - (instancetype)initWithBuilder:(HCDPresionBuilder *)builder;
 
-/**
- 造人
- */
-- (void)buildPerson;
+- (void)buildPerson; 
 
 @end
