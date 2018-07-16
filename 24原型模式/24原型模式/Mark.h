@@ -9,16 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
-
-
 @protocol Mark <NSObject>
 
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;
 @property (nonatomic, assign, readonly) NSUInteger count;
-@property (nonatomic,strong, readonly) id<Mark> lastChild;
+@property (nonatomic, strong, readonly) id<Mark> lastChild;
 
 -(id) initWithLocation:(CGPoint) location;
 -(id)copy;

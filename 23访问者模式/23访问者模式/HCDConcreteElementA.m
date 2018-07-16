@@ -15,7 +15,9 @@
 -(void)operationA{
     return;
 }
+
 -(void)accept:(HCDVisitors *)visitor{
     [visitor visitConcreteElementA:self];
 }
+
 @end

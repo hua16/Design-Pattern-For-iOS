@@ -20,20 +20,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HCDConcreteCompany *root = [[HCDConcreteCompany alloc]initWithName:@"总公司"];
-    [root add:[[HCDHRDepartment alloc]initWithName:@"总公司人力资源部"]];
-    [root add:[[HCDFinanceDepartment alloc]initWithName:@"总公司财务部"]];
+    HCDConcreteCompany *root = [[HCDConcreteCompany alloc] initWithName:@"总公司"];
+    [root add:[[HCDHRDepartment alloc] initWithName:@"总公司人力资源部"]];
+    [root add:[[HCDFinanceDepartment alloc] initWithName:@"总公司财务部"]];
     
-    HCDConcreteCompany *comp = [[HCDConcreteCompany alloc]initWithName:@"上海华东分公司"];
-    [comp add:[[HCDHRDepartment alloc]initWithName:@"上海华东分公司人力资源部"]];
-    [comp add:[[HCDFinanceDepartment alloc]initWithName:@"上海华东分公司财务部"]];
+    HCDConcreteCompany *comp = [[HCDConcreteCompany alloc] initWithName:@"上海华东分公司"];
+    [comp add:[[HCDHRDepartment alloc] initWithName:@"上海华东分公司人力资源部"]];
+    [comp add:[[HCDFinanceDepartment alloc] initWithName:@"上海华东分公司财务部"]];
     [root add:comp];
     
-    HCDConcreteCompany *comp1 = [[HCDConcreteCompany alloc]initWithName:@"杭州办事处"];
-    [comp1 add:[[HCDHRDepartment alloc]initWithName:@"杭州办事处人力资源部"]];
-    [comp1 add:[[HCDFinanceDepartment alloc]initWithName:@"杭州办事处财务部"]];
+    HCDConcreteCompany *office = [[HCDConcreteCompany alloc] initWithName:@"杭州办事处"];
+    [office add:[[HCDHRDepartment alloc] initWithName:@"杭州办事处人力资源部"]];
+    [office add:[[HCDFinanceDepartment alloc] initWithName:@"杭州办事处财务部"]];
     NSLog(@"\n");
-    [comp add:comp1];
+    [comp add:office];
     NSLog(@"结构图:--------------------------");
     [root display:1];
     NSLog(@"\n");

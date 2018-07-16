@@ -13,8 +13,8 @@
 
 @interface HCDVisitors : NSObject
 
-
 -(void)visitConcreteElementA:(HCDConcreteElementA *)concreteElementA;
+
 -(void)visitConcreteElementB:(HCDConcreteElementB *)concreteElementB;
 
 @end

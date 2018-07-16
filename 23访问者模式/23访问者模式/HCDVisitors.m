@@ -13,9 +13,9 @@
 @implementation HCDVisitors
 
 -(void)visitConcreteElementA:(HCDConcreteElementA *)concreteElementA{
-    return;
+    
 }
 -(void)visitConcreteElementB:(HCDConcreteElementB *)concreteElementB{
-    return;
+    
 }
 @end

@@ -17,4 +17,5 @@
 -(void)visitConcreteElementB:(HCDConcreteElementB *)concreteElementB{
     NSLog(@"女人接收到怒这个visitor============我要苦");
 }
+
 @end

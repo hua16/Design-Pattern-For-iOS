@@ -12,12 +12,11 @@
 @class HCDVisitors;
 
 @interface HCDObjectStructure : NSObject
-{
-    NSMutableArray *elements;
-}
-//添加和删除element
+
 -(void)attach:(HCDElements *)element;
+
 -(void)detach:(HCDElements *)element;
-//接受一个visitor
+
 -(void)accept:(HCDVisitors *)visitor;
+
 @end

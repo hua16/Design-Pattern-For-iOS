@@ -10,27 +10,34 @@
 #import "HCDElements.h"
 #import "HCDVisitors.h"
 
+@interface HCDObjectStructure ()
+
+@property (nonatomic, strong) NSMutableArray *elements;
+
+@end
+
 @implementation HCDObjectStructure
 
 -(instancetype)init{
     self = [super init];
     if (self) {
-        elements = [[NSMutableArray alloc]init];
+        _elements = [[NSMutableArray alloc]init];
     }
     return self;
 }
 
 -(void)attach:(HCDElements *)element{
-    [elements addObject:element];
+    [self.elements addObject:element];
 }
 
 -(void)detach:(HCDElements *)element{
-    [elements removeObject:element];
+    [self.elements removeObject:element];
 }
 
 -(void)accept:(HCDVisitors *)visitor{
-    for (HCDElements *e in elements) {
+    for (HCDElements *e in self.elements) {
         [e accept:visitor];
     }
 }
+
 @end

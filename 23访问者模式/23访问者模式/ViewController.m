@@ -36,10 +36,10 @@
     HCDConcreteVisitor1 *v1 = [HCDConcreteVisitor1 new];
     HCDConcreteVisitor2 *v2 = [HCDConcreteVisitor2 new];
     //eA,eB(男人女人)接收到访问者v1(喜)的不同反应。
-    [o accept: v1];
+    [o accept:v1];
     NSLog(@"================================");
     //eA,eB(男人女人)接收到访问者v2(怒)的不同反应。
-    [o accept: v2];
+    [o accept:v2];
 
 }
 

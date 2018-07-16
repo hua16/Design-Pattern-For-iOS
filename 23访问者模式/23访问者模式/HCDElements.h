@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @class HCDVisitors;
-
 @interface HCDElements : NSObject
+
 -(void)accept:(HCDVisitors *)visitor;
+
 @end
