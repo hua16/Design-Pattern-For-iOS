@@ -11,7 +11,7 @@
 
 @interface HCDWork()
 
-@property(nonatomic, strong) HCDState *state;
+@property (nonatomic, strong) HCDState *state;
 
 @end
 

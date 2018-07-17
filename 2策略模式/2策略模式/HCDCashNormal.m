@@ -13,4 +13,5 @@
 -(CGFloat)acceptCash:(CGFloat)cash{
     return cash;
 }
+
 @end

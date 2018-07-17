@@ -12,9 +12,9 @@
 
 @interface HCDWork : NSObject
 
-@property(nonatomic,assign) CGFloat hour;
+@property(nonatomic, assign) CGFloat hour;
 
-@property(nonatomic,assign) BOOL finished;
+@property(nonatomic, assign) BOOL finished;
 
 - (void)writeProgram;
 

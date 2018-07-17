@@ -45,7 +45,7 @@
 }
 
 - (CGFloat)getResult:(CGFloat)money {
-    
     return [self.cash acceptCash:money];
 }
+
 @end
